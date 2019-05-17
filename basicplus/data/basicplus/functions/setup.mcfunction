@@ -30,3 +30,5 @@ scoreboard objectives setdisplay belowName leben
 
 #custom Customcrafting
 scoreboard objectives add barrel_placed minecraft.used:minecraft.barrel
+
+say Blubb
