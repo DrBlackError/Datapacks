@@ -10,3 +10,5 @@ give @p minecraft:enchanted_book{ench:["slowfall"],display:{Name:"{\"text\":\"Bu
 give @p minecraft:enchanted_book{ench:["fireresistance"],display:{Name:"{\"text\":\"Buch der Feuerresistenz\",\"color\":\"dark_red\"}"},HideFlags:63} 1
 
 Yolo rofl scheisse
+
+WTF fick dich
