@@ -9,8 +9,4 @@ execute as @a[nbt={Inventory:[{Slot:102b,tag:{ench:["fireres"]}}]}] run effect g
 give @p minecraft:enchanted_book{ench:["slowfall"],display:{Name:"{\"text\":\"Buch des Langsamen Falls\",\"color\":\"aqua\"}"},HideFlags:63} 1
 give @p minecraft:enchanted_book{ench:["fireresistance"],display:{Name:"{\"text\":\"Buch der Feuerresistenz\",\"color\":\"dark_red\"}"},HideFlags:63} 1
 
-Yolo rofl scheisse
-
-WTF fick dich
-Geil mach ich später
-asdfasdf
+#Unnötiges Gelöscht
