@@ -15,3 +15,4 @@ function dbe:trigger/debugon
 function dbe:trigger/debugoff
 function dbe:tick/debug
 function dbe:tick/sec
+function dbe:tick/sizetest
