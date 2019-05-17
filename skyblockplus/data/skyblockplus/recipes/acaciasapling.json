@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:jungle_sapling"
+        }
+    ],
+    "result": {
+        "item": "minecraft:acacia_sapling",
+        "count": 1
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "#D#",
+        "ADA",
+        "ADA"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_block"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "A": {
+            "item": "minecraft:arrow"
+        }
+    },
+    "result": {
+        "item": "minecraft:trident",
+        "count": 1
+    }
+}

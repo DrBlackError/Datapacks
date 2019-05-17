@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:acacia_sapling"
+        }
+    ],
+    "result": {
+        "item": "minecraft:dark_oak_sapling",
+        "count": 1
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "type": "smelting",
+    "ingredient": {
+        "item": "minecraft:poisonous_potato"
+    },
+    "result": "minecraft:creeper_spawn_egg",
+    "experience": 0.1,
+    "cookingtime": 200
+}

@@ -1,0 +1,5 @@
+execute unless block ~ ~-1 ~ minecraft:dark_oak_log positioned ~ ~ ~1 if block ~ ~ ~ minecraft:dark_oak_leaves[persistent=false] run function timber:dark_oak_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:dark_oak_log positioned ~ ~ ~-1 if block ~ ~ ~ minecraft:dark_oak_leaves[persistent=false] run function timber:dark_oak_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:dark_oak_log positioned ~1 ~ ~ if block ~ ~ ~ minecraft:dark_oak_leaves[persistent=false] run function timber:dark_oak_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:dark_oak_log positioned ~-1 ~ ~ if block ~ ~ ~ minecraft:dark_oak_leaves[persistent=false] run function timber:dark_oak_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:dark_oak_log positioned ~ ~1 ~ if block ~ ~ ~ minecraft:dark_oak_leaves[persistent=false] run function timber:dark_oak_tree/leaves_destroy

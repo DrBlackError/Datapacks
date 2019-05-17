@@ -1,0 +1,5 @@
+execute unless block ~ ~-1 ~ minecraft:jungle_log positioned ~ ~ ~1 if block ~ ~ ~ minecraft:jungle_leaves[persistent=false] run function timber:jungle_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:jungle_log positioned ~ ~ ~-1 if block ~ ~ ~ minecraft:jungle_leaves[persistent=false] run function timber:jungle_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:jungle_log positioned ~1 ~ ~ if block ~ ~ ~ minecraft:jungle_leaves[persistent=false] run function timber:jungle_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:jungle_log positioned ~-1 ~ ~ if block ~ ~ ~ minecraft:jungle_leaves[persistent=false] run function timber:jungle_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:jungle_log positioned ~ ~1 ~ if block ~ ~ ~ minecraft:jungle_leaves[persistent=false] run function timber:jungle_tree/leaves_destroy

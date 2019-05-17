@@ -1,0 +1,5 @@
+execute unless block ~ ~-1 ~ minecraft:spruce_log positioned ~ ~ ~1 if block ~ ~ ~ minecraft:spruce_leaves[persistent=false] run function timber:spruce_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:spruce_log positioned ~ ~ ~-1 if block ~ ~ ~ minecraft:spruce_leaves[persistent=false] run function timber:spruce_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:spruce_log positioned ~1 ~ ~ if block ~ ~ ~ minecraft:spruce_leaves[persistent=false] run function timber:spruce_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:spruce_log positioned ~-1 ~ ~ if block ~ ~ ~ minecraft:spruce_leaves[persistent=false] run function timber:spruce_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:spruce_log positioned ~ ~1 ~ if block ~ ~ ~ minecraft:spruce_leaves[persistent=false] run function timber:spruce_tree/leaves_destroy

@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Erste Schritte",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Laufe 100 Meter"
+        },
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "100metergelaufen": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "skyblockplus:root"
+}

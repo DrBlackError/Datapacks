@@ -1,0 +1,5 @@
+execute unless block ~ ~-1 ~ minecraft:birch_log positioned ~ ~ ~1 if block ~ ~ ~ minecraft:birch_leaves[persistent=false] run function timber:birch_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:birch_log positioned ~ ~ ~-1 if block ~ ~ ~ minecraft:birch_leaves[persistent=false] run function timber:birch_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:birch_log positioned ~1 ~ ~ if block ~ ~ ~ minecraft:birch_leaves[persistent=false] run function timber:birch_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:birch_log positioned ~-1 ~ ~ if block ~ ~ ~ minecraft:birch_leaves[persistent=false] run function timber:birch_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:birch_log positioned ~ ~1 ~ if block ~ ~ ~ minecraft:birch_leaves[persistent=false] run function timber:birch_tree/leaves_destroy

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:dirt"
+  },
+  "result": "minecraft:diamond",
+  "count": 33
+}

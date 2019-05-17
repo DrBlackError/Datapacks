@@ -1,0 +1,5 @@
+execute unless block ~ ~-1 ~ minecraft:oak_log positioned ~ ~ ~1 if block ~ ~ ~ minecraft:oak_leaves[persistent=false] run function timber:oak_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:oak_log positioned ~ ~ ~-1 if block ~ ~ ~ minecraft:oak_leaves[persistent=false] run function timber:oak_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:oak_log positioned ~1 ~ ~ if block ~ ~ ~ minecraft:oak_leaves[persistent=false] run function timber:oak_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:oak_log positioned ~-1 ~ ~ if block ~ ~ ~ minecraft:oak_leaves[persistent=false] run function timber:oak_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:oak_log positioned ~ ~1 ~ if block ~ ~ ~ minecraft:oak_leaves[persistent=false] run function timber:oak_tree/leaves_destroy

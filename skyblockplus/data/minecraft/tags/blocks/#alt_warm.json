@@ -1,0 +1,15 @@
+{
+  "values":[
+	"minecraft:torch",
+  "minecraft:campfire",
+  "minecraft:smoker",
+  "minecraft:blast_furnace",
+  "minecraft:furnace",
+	"minecraft:lava",
+	"minecraft:glowstone",
+	"minecraft:jack_o_lantern",
+	"minecraft:sea_lantern",
+	"minecraft:magma_block",
+	"minecraft:fire"
+  ]
+}

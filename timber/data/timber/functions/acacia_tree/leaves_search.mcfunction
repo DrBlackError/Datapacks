@@ -1,0 +1,5 @@
+execute unless block ~ ~-1 ~ minecraft:acacia_log positioned ~ ~ ~1 if block ~ ~ ~ minecraft:acacia_leaves[persistent=false] run function timber:acacia_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:acacia_log positioned ~ ~ ~-1 if block ~ ~ ~ minecraft:acacia_leaves[persistent=false] run function timber:acacia_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:acacia_log positioned ~1 ~ ~ if block ~ ~ ~ minecraft:acacia_leaves[persistent=false] run function timber:acacia_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:acacia_log positioned ~-1 ~ ~ if block ~ ~ ~ minecraft:acacia_leaves[persistent=false] run function timber:acacia_tree/leaves_destroy
+execute unless block ~ ~-1 ~ minecraft:acacia_log positioned ~ ~1 ~ if block ~ ~ ~ minecraft:acacia_leaves[persistent=false] run function timber:acacia_tree/leaves_destroy

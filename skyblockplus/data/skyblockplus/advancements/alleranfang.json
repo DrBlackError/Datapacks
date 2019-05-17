@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Holzklopfer",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Klopfe den Baum unter dir"
+        },
+        "icon": {
+            "item": "minecraft:oak_log"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "holz": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:oak_log",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "skyblockplus:root"
+}
