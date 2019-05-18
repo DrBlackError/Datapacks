@@ -1,9 +1,5 @@
 #DrBlackError
 #Jeder Befehl, der hier eingetragen wird, wird in jedem (Game-)tick wiederholt ausgeführt
-#Letzte Änderung:
-#
-
-#
 function dbe:trigger/cmd
 #function dbe:tick/sneaktel
 function dbe:trigger/heal
