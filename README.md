@@ -43,7 +43,7 @@ entplus:
 3. wand1c.mcfunction
 
 
-## Ideas for a Gamemode [Nor in work]
+## Ideas for a Gamemode [Not in work]
 
 Legende:
 
