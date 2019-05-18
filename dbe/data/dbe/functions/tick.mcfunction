@@ -16,3 +16,5 @@ function dbe:trigger/debugoff
 function dbe:tick/debug
 function dbe:tick/sec
 function dbe:tick/test
+function dbe:tick/sizetest
+
