@@ -1,3 +1,5 @@
+#IFloooI
+#?
 execute as @e[type=armor_stand,name=sieve_main] at @s if block ~ ~ ~ dirt run summon armor_stand ~ ~ ~ {Tags:["start"],NoGravity:1b,Small:1b,Marker:1b,DisabledSlots:4144959,CustomName:"{\"text\":\"sieve\"}"}
 execute as @e[type=armor_stand,name=sieve_main] at @s if block ~ ~ ~ dirt unless entity @e[type=armor_stand,name=sieve,tag=started,tag=!start] as @e[type=armor_stand,name=sieve,tag=!started,tag=start,limit=1] run scoreboard players add @s sieve 26
 execute as @e[type=armor_stand,name=sieve,tag=started] at @s run tag @s remove start

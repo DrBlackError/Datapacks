@@ -1,3 +1,5 @@
+#IFloooI
+#?
 execute as @a[scores={punishment=1..}] at @s run gamemode adventure @s
 execute as @a[scores={punishment=1..}] at @s run tag @s add punished
 execute as @a[scores={punishment=1..}] at @s run scoreboard players remove @s punishment 1

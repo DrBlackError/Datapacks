@@ -1,7 +1,6 @@
-#Made By Flo
-#Work in Progress
-#Wird von Safezone 1 benutzt
-#
+#IFloooI
+#? [WIP]
+#entplus:safezone
 
 particle totem_of_undying ~ ~ ~10 4 0 0 0.01 5 force @a
 particle totem_of_undying ~10 ~ ~ 0 0 4 0.01 5 force @a

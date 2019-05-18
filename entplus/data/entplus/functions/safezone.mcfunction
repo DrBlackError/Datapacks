@@ -1,8 +1,6 @@
-#Greift auf entplus:safezone2 zu
-#Von Flooo
-#Work in Progress
-#
-
+#IFloooI
+#Safezone [WIP]
+#entplus:safezone2
 execute as @r at @s as @e[limit=1,type=item,nbt={OnGround:1b,Item:{id:"minecraft:lingering_potion",Count:1b,tag:{Potion:"minecraft:regeneration"}}}] at @s if block ~ ~ ~ cauldron run tag @s add safezone1
 execute as @r at @s as @e[tag=!safezone1,type=item,distance=..6,nbt={OnGround:1b,Item:{id:"minecraft:lingering_potion",Count:1b,tag:{Potion:"minecraft:strength"}}}] at @s if block ~ ~ ~ cauldron run tag @s add safezone2
 

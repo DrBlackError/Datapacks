@@ -1,7 +1,6 @@
 #DrBlackRat
 #home_spawnpoint setzen
 #main
-
 execute as @e[tag=home_spawnpoint] at @s if score @s uuid = @a[limit=1,scores={tp_home_click=1..},nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}]}] uuid run kill @s
 execute as @a[scores={tp_home_click=1..},nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}]}] at @s run summon area_effect_cloud ~ ~ ~ {NoGravity:1b,Particle:"dust",Radius:0f,Duration:999999999,Tags:["home_spawnpoint","uuid_rotate","uuid_zero"]}
 execute as @a[scores={tp_home_click=1..},nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}]}] at @s run tp @e[tag=uuid_zero,distance=..1] @s
@@ -13,8 +12,10 @@ execute as @a[scores={tp_home_click=1..},nbt={Inventory:[{Slot:-106b,tag:{Custom
 execute as @a[scores={tp_home_click=1..},nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}]}] at @s run playsound minecraft:entity.arrow.hit_player ambient @s
 execute as @a[scores={tp_home_click=1..},nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}]}] at @s run tellraw @s ["",{"text":"Homepunkt erfolgreich gesetzt!","color":"aqua"}]
 
+#DrBlackRat
 #reste
 scoreboard players set @a[scores={tp_home_click=1..}] tp_home_click 0
 
+#DrBlackRat
 #leben des spawn points
 execute as @e[nbt={Age:999999800},tag=home_spawnpoint] run data merge entity @s {Age:0}

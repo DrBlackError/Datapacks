@@ -1,10 +1,6 @@
 #DrBlackError
 #Testfunktion zum ausführen beliebiger Sachen
-#
-#
 
-
-#say Retard
 #execute as @e[nbt={Item:{id:"minecraft:dirt"}}] at @s if entity @e[distance=..2,nbt={Item:{id:"minecraft:feather"}}] if entity @e[distance=..2,nbt={Item:{id:"minecraft:flint_and_steel"}}] if entity @e[distance=..2,nbt={Item:{id:"minecraft:water_bucket"}}] if block ~ ~-1 ~ enchanting_table run tag @s add zt
 #execute as @e[tag=zt] at @s run summon lightning_bolt ~4 ~ ~4
 #execute as @e[tag=zt] at @s run summon lightning_bolt ~-4 ~ ~4
@@ -12,7 +8,9 @@
 #execute as @e[tag=zt] at @s run summon lightning_bolt ~-4 ~ ~-4
 #execute as @e[tag=zt] at @s run weather thunder
 #execute as @a[tag=zt] run kill @s
-#kill @s
+
+#DrBlackError
+#give custom Items
 give @p minecraft:carrot_on_a_stick{CustomModelData:1} 1
 give @p minecraft:carrot_on_a_stick{CustomModelData:2} 1
 give @p minecraft:carrot_on_a_stick{CustomModelData:3} 1
@@ -33,15 +31,23 @@ give @p minecraft:carrot_on_a_stick{CustomModelData:4} 1
 #give @p minecraft:carrot_on_a_stick{CustomModelData:18} 1
 #give @p minecraft:carrot_on_a_stick{CustomModelData:19} 1
 #give @p minecraft:carrot_on_a_stick{CustomModelData:20} 1
+
+#DrBlackError
+#gives player Potion of Mana
 give @p minecraft:potion{HideFlags:33,CustomPotionEffects:[{Id:27b,Amplifier:1b,Duration:1,ShowParticles:0b}],CustomPotionColor:4707583} 1
 give @p minecraft:potion{HideFlags:33,CustomPotionEffects:[{Id:27b,Amplifier:2b,Duration:1,ShowParticles:0b}],CustomPotionColor:4707583} 1
 give @p minecraft:potion{HideFlags:33,CustomPotionEffects:[{Id:27b,Amplifier:3b,Duration:1,ShowParticles:0b}],CustomPotionColor:4707583} 1
 give @p minecraft:potion{HideFlags:33,CustomPotionEffects:[{Id:27b,Amplifier:4b,Duration:1,ShowParticles:0b}],CustomPotionColor:4707583} 1
+
+#?
+#?
 #execute as DrBlackError at @s align xyz positioned ~0.5 ~1 ~0.5 run summon armor_stand ~ ~ ~ {NoGravity:1b,CustomNameVisible:1b,Invulnerable:1b,Small:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["et1"],CustomName:"{\"text\":\"+\",\"color\":\"dark_blue\"}"}
 #give @s minecraft:carrot_on_a_stick{display:{Name:"{\"text\":\"Feuer-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Feuer-Stab kannst du Feuer scheißen und Gegner in brand setzen"]},CustomModelData:2} 1
 #give @s minecraft:carrot_on_a_stick{display:{Name:"{\"text\":\"Blitz-Stab\",\"color\":\"dark_purple\"}",Lore:["Wenn die blaue Wolke ein Mob , Spieler oder Block trift wird ein Blitz gespawnt"]},CustomModelData:3} 1
 #give @s minecraft:carrot_on_a_stick{display:{Name:"{\"text\":\"Freze-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Freze-Stab können sich die Leute die du triefst für 5 Sekunden nicht mehr Bewegen"]},CustomModelData:4} 1
 
+#DrBlackError
+#Text to tp to Team-Spawns [deprecated]
 tellraw @s "----------"
 tellraw @s ""
 tellraw @s {"text":"Team Rot","color":"red","clickEvent":{"action":"run_command","value":"/execute as @s in overworld run tp @s -389 64 -380"}}

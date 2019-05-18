@@ -1,7 +1,5 @@
 #DrBlackError + DrBlackRat
 #Zauberstäbe wechseln
-#-
-#-
 
 #Stab 1 zu Stab 2
 execute as @a[scores={sneaktime=0},tag=w1,nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:1}}]}] at @s as @s run tag @s add Get2
