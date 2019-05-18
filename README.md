@@ -41,3 +41,42 @@ entplus:
 1. Parameter, Konstanten & Tags vereinheitlichen
 2. Zauberstäbe in allen Holzsorten
 3. wand1c.mcfunction
+
+
+## Ideas for a Gamemode [Nor in work]
+
+Legende:
+
+AS = ArmorStand
+CS = Carrot on a Stick
+SB = Scoreboard
+
+
+Teambasierter Modus (2 Teams, Rot, Blau)
+
+Zufällige Teamzuordnung von den Spielern (Teleport @r zu einem AS)
+Vielleicht 2er Gruppen?
+Möglichkeit der Spieler zur Auswahl zum Mitspielen oder Zuschauen (CS)
+Zufällige Spawnpunkte (festsetzen der Spawnpunkte mit /trigger tspawn)
+Möglichkeit zum Auswählen des Spawns
+Anfangs Tutorial?
+Fertige Klassen zur Übung
+TeamSB (Spielercounter)
+Währung erhalten durch Kills?
+...-Punkte!
+Random Drops von Geld auf der Map?
+
+Verschiedene Angriffe (Manaabzug oder ä.)
+Verschiedenste Fähigkeiten?
+Skill system
+Waffen Upgrade System?
+Fortschrittssystem+Exklusive Waffen/Fähigkeiten Freischalten?
+Verteidigungs Mechanismen?
+Map Abbaubar?
+Veränderungen der Map durch Spells o. Special items?
+Strategische Punkte:
+Ressourcen Sammelbar?
+Holz,Eisen,Essen?
+
+## Intern
+https://docs.google.com/spreadsheets/d/1tBAyK2HNIqExwpSnbSCwUWBO4iBVzBMIZgG4YtSJte4/edit
