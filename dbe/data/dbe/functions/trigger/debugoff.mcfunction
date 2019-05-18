@@ -1,8 +1,7 @@
 #DrBlackError
 #Gibt beim ausgühren von /trigger
-#
-#
 
+#DrBlackError
 #Ausführung & Reset
 execute as @a[scores={debugoff=1..}] run scoreboard players enable @s debugoff
 execute as @a[scores={debugoff=1..}] run scoreboard players set @a debug 0
