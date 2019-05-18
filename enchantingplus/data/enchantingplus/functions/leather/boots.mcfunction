@@ -1,0 +1,2 @@
+execute as @e[nbt={Item:{tag:{ench:["slowfall"]}}},nbt=!{Item:{id:"minecraft:enchanted_book",Count:1b}},nbt=!{Item:{tag:{display:{Lore:['{"text":"Langsamer-Fall"}']}}}}] run data modify entity @s Item.tag.display.Lore append value '{"text":"Langsamer-Fall"}'
+execute as @e[type=item,nbt={Item:{id:"minecraft:leather_boots",Count:1b}},nbt=!{Item:{tag:{ench:["slowfall"]}}}] at @s if entity @e[nbt={Item:{tag:{ench:["slowfall"]}}},distance=..1,limit=1] run data modify entity @s Item.tag.ench append value slowfall
