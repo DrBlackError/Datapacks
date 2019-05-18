@@ -1,27 +1,29 @@
 # Datapacks
 Datapacks for you and me
 
-Roadmap:
 
-## Basicplus
+
+# Roadmap:
+
+## Basicplus:
 more basic scoreboards and detection methods
 
-## DBE
+## DBE:
 
-## Entchantingplus
+## Entchantingplus:
 
-## Entplus
+## Entplus:
 
-## RPGplus
+## RPGplus:
 
-## Skyblockplus
+## Skyblockplus:
 
-## Svplus
+## Svplus:
 
-## uncategorized
-Inventory stealing like https://www.youtube.com/watch?v=f0tyEAa-2yg
+## uncategorized:
+inventorystealing like https://www.youtube.com/watch?v=f0tyEAa-2yg
 
-## Old ToDo's [deprecated, list need a rework]
+## Old ToDo's [deprecated, list need a rework]:
 
 svplus:
 1. Parameter, Konstanten & Tags vereinheitlichen
