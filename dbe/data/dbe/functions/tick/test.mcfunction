@@ -3,4 +3,5 @@ execute as @a if entity @a[nbt={Inventory:[{id:"minecraft:torch",Slot:-106b}]}] 
 
 #Hund
 #hallo ibims
-# test2 bzw. 3
+# test2 bzw. 3 bzw. 4 ?
+say test??
