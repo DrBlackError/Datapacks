@@ -1,7 +1,7 @@
 execute as @e[type=armor_stand,tag=sort_sorter] at @s run tp @e[type=item,nbt={Item:{tag:{sort:redstone}}},distance=..1,limit=1] @e[type=armor_stand,tag=sort_redstone,limit=1,sort=nearest]
 execute as @e[type=armor_stand,tag=sort_sorter] at @s run tp @e[type=item,nbt={Item:{tag:{sort:tools}}},distance=..1,limit=1] @e[type=armor_stand,tag=sort_tools,limit=1,sort=nearest]
 execute as @e[type=armor_stand,tag=sort_sorter] at @s run tp @e[type=item,nbt={Item:{tag:{sort:oresingots}}},distance=..1,limit=1] @e[type=armor_stand,tag=sort_oresingots,limit=1,sort=nearest]
-#execute as @e[type=armor_stand,tag=sort_sorter] at @s run tp @e[type=item,nbt={Item:{tag:{sort:redstone}}},distance=..1,limit=1] @e[type=armor_stand,tag=sort_redstone,limit=1,sort=nearest]
+execute as @e[type=armor_stand,tag=sort_sorter] at @s run tp @e[type=item,nbt={Item:{tag:{sort:weaponarmor}}},distance=..1,limit=1] @e[type=armor_stand,tag=weaponarmor,limit=1,sort=nearest]
 #execute as @e[type=armor_stand,tag=sort_sorter] at @s run tp @e[type=item,nbt={Item:{tag:{sort:redstone}}},distance=..1,limit=1] @e[type=armor_stand,tag=sort_redstone,limit=1,sort=nearest]
 #execute as @e[type=armor_stand,tag=sort_sorter] at @s run tp @e[type=item,nbt={Item:{tag:{sort:redstone}}},distance=..1,limit=1] @e[type=armor_stand,tag=sort_redstone,limit=1,sort=nearest]
 #execute as @e[type=armor_stand,tag=sort_sorter] at @s run tp @e[type=item,nbt={Item:{tag:{sort:redstone}}},distance=..1,limit=1] @e[type=armor_stand,tag=sort_redstone,limit=1,sort=nearest]
