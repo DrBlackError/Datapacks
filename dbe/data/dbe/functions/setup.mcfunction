@@ -4,7 +4,6 @@
 #DrBlackError
 #Nachricht die beim erfolgreichen Reload gesendet wird
 tellraw @a[team=Admin] {"text":"dbe erfolgreich geladen!","color":"yellow"}
-tellraw @a {"text":"dbe erfolgreich geladen!","color":"yellow"}
 playsound minecraft:entity.arrow.hit_player master @a ~ ~ ~ 1 1 1
 
 #DrBlackError
