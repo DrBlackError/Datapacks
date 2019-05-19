@@ -1,1 +1,1 @@
-tellraw @a[team=Admin] {"text":"FISS erfolgreich geladen!","color":"yellow"}
+tellraw @a[team=Admin] {"text":"Sort System erfolgreich geladen!","color":"yellow"}
