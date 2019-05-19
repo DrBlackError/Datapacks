@@ -28,3 +28,5 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:lead"}},nbt=!{Item:{tag:{sort:t
 execute as @e[type=item,nbt={Item:{id:"minecraft:fishing_rod"}},nbt=!{Item:{tag:{sort:tools}}}] run data merge entity @s {Item:{tag:{sort:tools}}}
 execute as @e[type=item,nbt={Item:{id:"minecraft:clock"}},nbt=!{Item:{tag:{sort:tools}}}] run data merge entity @s {Item:{tag:{sort:tools}}}
 execute as @e[type=item,nbt={Item:{id:"minecraft:compass"}},nbt=!{Item:{tag:{sort:tools}}}] run data merge entity @s {Item:{tag:{sort:tools}}}
+execute as @e[type=item,nbt={Item:{id:"minecraft:nametags"}},nbt=!{Item:{tag:{sort:tools}}}] run data merge entity @s {Item:{tag:{sort:tools}}}
+execute as @e[type=item,nbt={Item:{id:"minecraft:flint_and_steel"}},nbt=!{Item:{tag:{sort:tools}}}] run data merge entity @s {Item:{tag:{sort:tools}}}
