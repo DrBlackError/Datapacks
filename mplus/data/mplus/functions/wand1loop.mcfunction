@@ -1,6 +1,6 @@
 #DrBlackRat
 #Teleport stab
-#entplus/wand1 entplus/wand1c  entplus/setup entplus/main
+#mplus/wand1 mplus/wand1c  mplus/setup mplus/main
 
 scoreboard players remove @a[scores={tptime=1..}] tptime 1
 

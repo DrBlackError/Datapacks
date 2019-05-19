@@ -3,7 +3,7 @@
 
 #?
 #?
-execute as @e[limit=1,type=item,nbt={Item:{id: "minecraft:enchanted_book", Count: 1b, tag: {StoredEnchantments: [{lvl:4s, id: "minecraft:unbreaking"}]}}}] at @s if entity @e[type=item,distance=..2] run function entplus:link
+execute as @e[limit=1,type=item,nbt={Item:{id: "minecraft:enchanted_book", Count: 1b, tag: {StoredEnchantments: [{lvl:4s, id: "minecraft:unbreaking"}]}}}] at @s if entity @e[type=item,distance=..2] run function mplus:link
 
 #?
 #?
@@ -12,16 +12,16 @@ kill @e[type=tnt]
 
 #?
 #?
-function entplus:unbreaking4
-function entplus:unbreaking5
+function mplus:unbreaking4
+function mplus:unbreaking5
 
 #?
 #?
-function entplus:enchupgrade
+function mplus:enchupgrade
 
 #?
 #?
-execute as @e[nbt={Item:{tag:{Unbreaking:4}}}] at @s run function entplus:link
+execute as @e[nbt={Item:{tag:{Unbreaking:4}}}] at @s run function mplus:link
 
 #?
 #?
@@ -34,28 +34,28 @@ execute store result score counter timescore run time query daytime
 
 #?
 #?
-#function entplus:timetag
+#function mplus:timetag
 
 #?
 #?
-function entplus:safezone
+function mplus:safezone
 
 #?
 #?
-function entplus:mana
+function mplus:mana
 
 #DrBlackError +DrBlackRat
 #Loop exact
-function entplus:tp_stab_homeset
+function mplus:tp_stab_homeset
 
 #?
 #?
-#function entplus:exact moved to Basicplus
+#function mplus:exact moved to Basicplus
 
 #?
 #?
-function entplus:wand1c
-function entplus:wand1loop
+function mplus:wand1c
+function mplus:wand1loop
 
 #DrBlackError
 #Mana Potions [Dedektierung vom Effekt Unluck und hinzufügen von Manapunkten]
@@ -70,19 +70,19 @@ execute as @a[tag=bot_building_walk] at @s if block ~ ~-1 ~ air run setblock ~ ~
 
 #DrBlackRat
 #main funktion der shoot funktion
-function entplus:shoot/shootmain
+function mplus:shoot/shootmain
 
 #DrBlackError + DrBlackRat
 #loop rotatae
-function entplus:rotate
+function mplus:rotate
 
 #DrBlackRat
 #crafting funktionen
-function entplus:z-c-w1-craft
-function entplus:z-c-o-craft
-#function entplus:z-c-s1-craft
-#function entplus:z-c-s2-craft
-#function entplus:z-c-s3-craft
+function mplus:z-c-w1-craft
+function mplus:z-c-o-craft
+#function mplus:z-c-s1-craft
+#function mplus:z-c-s2-craft
+#function mplus:z-c-s3-craft
 
 #DrBlackRat
 #tauscht bücher
@@ -95,8 +95,8 @@ scoreboard players enable @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:
 
 #?
 #?
-execute as @a[scores={w1+=1}] run function entplus:w1p
-execute as @a[scores={w1-=1}] run function entplus:w1m
+execute as @a[scores={w1+=1}] run function mplus:w1p
+execute as @a[scores={w1-=1}] run function mplus:w1m
 
 #?
 #?

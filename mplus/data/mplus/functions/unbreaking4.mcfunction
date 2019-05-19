@@ -9,6 +9,6 @@ execute as @e[tag=drop_enchunbreaking_3_1] at @s if entity @e[tag=drop_enchunbre
 
 execute as @e[type=item,tag=craft_enchunbreaking_4] at @s run kill @e[tag=drop_enchunbreaking_3_2,distance=..1,limit=1]
 execute as @e[type=item,tag=craft_enchunbreaking_4] at @s run playsound minecraft:block.wood.place master @a
-#execute as @e[type=item,tag=craft_enchunbreaking_4] at @s run function entplus:lightningbolt
+#execute as @e[type=item,tag=craft_enchunbreaking_4] at @s run function mplus:lightningbolt
 execute as @e[type=item,tag=craft_enchunbreaking_4] at @s run data merge entity @s {Motion:[0.0d,0.3d,0.0d],Tags:[],Item:{id:"minecraft:enchanted_book",Count:1b,tag:{Unbreaking:4,display:{Lore:["Dieses buch trägt eine überdurchschnittliche Kraft"]},StoredEnchantments:[{id:"minecraft:unbreaking",lvl:4}]}}}
 scoreboard players reset @a[scores={drop_sneak=1..}] drop_sneak

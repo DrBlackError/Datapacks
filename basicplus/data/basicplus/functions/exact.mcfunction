@@ -2,8 +2,8 @@
 #Tracken von Carrot clicks
 #main
 
-execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:1}}}] at @s run function entplus:wand1
-execute as @a[scores={exact=1..},nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}]}] at @s run function entplus:tp_stab_homeset
+execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:1}}}] at @s run function mplus:wand1
+execute as @a[scores={exact=1..},nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}]}] at @s run function mplus:tp_stab_homeset
 #execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:2}}}] at @s run say Carrot 2 --> Feuerstab
 #execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:3}}}] at @s run say Carrot 3 --> Blitzstab
 #execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:4}}}] at @s run say Carrot 4 --> Eisstab
@@ -11,7 +11,7 @@ execute as @a[scores={exact=1..},nbt={Inventory:[{Slot:-106b,tag:{CustomModelDat
 #execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:6}}}] at @s run say Carrot 6 --> Holzeimer mit Wasser
 #execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:7}}}] at @s run say Carrot 7 --> Gift
 #execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:8}}}] at @s run say Carrot 8 --> Mutatio
-execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:9}}}] at @s run function entplus:wand9
+execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:9}}}] at @s run function mplus:wand9
 execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:10}}}] at @s run say Carrot 10
 execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:11}}}] at @s run say Carrot 11
 execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:12}}}] at @s run say Carrot 12

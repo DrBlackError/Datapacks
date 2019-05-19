@@ -3,7 +3,7 @@
 
 #DrBlackError
 #Nachricht die beim erfolgreichen Reload gesendet wird
-tellraw @a[team=Admin] {"text":"Entplus erfolgreich geladen!","color":"yellow"}
+tellraw @a[team=Admin] {"text":"mplus erfolgreich geladen!","color":"yellow"}
 
 #DrBlackError
 #Erstellt Dummy Scoreboards
@@ -33,7 +33,7 @@ scoreboard players set #tools_random_return math_numbers 0
 
 #DrBlackRat
 #Shoot
-function entplus:shoot/shootload
+function mplus:shoot/shootload
 
 #IFloooI
 #Savecloud

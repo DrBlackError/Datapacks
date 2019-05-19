@@ -13,7 +13,7 @@ more basic scoreboards and detection methods
 
  ## Entchantingplus:
 
- ## Entplus:
+ ## mplus:
 
  ## RPGplus:
 
@@ -38,7 +38,7 @@ Die Leute die, die Farbe Des Glases als Team haben können durch doch alle die n
 Man muss sich an einer Wärmequelle befinden, damit man nicht negative Effekte in der Nacht bekommt (Slowness, Damage bis hin zum Tod)
 8. Safezone?
 
- entplus:
+ mplus:
 1. Parameter, Konstanten & Tags vereinheitlichen
 2. Zauberstäbe in allen Holzsorten
 3. wand1c.mcfunction
