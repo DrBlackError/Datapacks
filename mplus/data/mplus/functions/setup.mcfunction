@@ -3,7 +3,7 @@
 
 #DrBlackError
 #Nachricht die beim erfolgreichen Reload gesendet wird
-tellraw @a[team=Admin] {"text":"mplus erfolgreich geladen!","color":"yellow"}
+tellraw @a[team=Admin] {"text":"Magicplus erfolgreich geladen!","color":"yellow"}
 
 #DrBlackError
 #Erstellt Dummy Scoreboards
