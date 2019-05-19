@@ -11,6 +11,9 @@ execute as @a[scores={stamina=100..149,run=0},tag=staminaplus] run scoreboard pl
 execute as @a[scores={timer=40}] run scoreboard players set @s run 0
 execute as @a[scores={jump=1}] run scoreboard players set @s timer 0
 execute as @a[scores={jump=1}] run scoreboard players set @s jump 0
+execute as @a[nbt={OnGround:0b}] run scoreboard players add @s jumptimestamina 1
+execute as @a[scores={jumptimestamina=1}] run scoreboard players remove @s stamina 1
+execute as @a[scores={jumptimestamina=1..}] run scoreboard players set @s jumptimestamina 0
 
 #DrBlackError
 #effects at stamina=0
