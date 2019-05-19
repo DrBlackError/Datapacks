@@ -1,4 +1,4 @@
-#I Like Turtles because they are fckn awesome
+
 #Leder
 function enchantingplus:leather/helmet
 function enchantingplus:leather/chestplate
@@ -21,10 +21,6 @@ function enchantingplus:diamond/chestplate
 function enchantingplus:diamond/leggings
 function enchantingplus:diamond/boots
 function enchantingplus:weapons/diamond_sword
-
-
-#I Love Turtles!!!
-
 
 
 execute as @a[tag=books] run give @p minecraft:enchanted_book{ench:["glowattack"],display:{Name:"{\"text\":\"Buch der Leuchtenden Berührung\",\"color\":\"gold\"}"},HideFlags:63} 1
