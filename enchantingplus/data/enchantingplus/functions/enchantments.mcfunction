@@ -1,7 +1,10 @@
 execute as @a[nbt={Inventory:[{Slot:100b,tag:{ench:["slowfall"]}}]}] run effect give @s minecraft:slow_falling 1 1 true
 execute as @a[nbt={Inventory:[{Slot:102b,tag:{ench:["fireres"]}}]}] run effect give @s minecraft:fire_resistance 1 1 true
-execute as @a[nbt={SelectedItem:[{tag:{ench:["glowattack"]}}]}] run say Leuchtendes Schwert!
+execute as @a[nbt={SelectedItem:{tag:{ench:["glowattack"]}}}] run say Leuchtendes Schwert!
 
+#poisonattack
+execute as @a[tag=!poisonsword,nbt=!{SelectedItem:{id:"minecraft:enchanted_book",Count:1b}},nbt={SelectedItem:{tag:{ench:["poisonattack"]}}}] run tag @s add poisonsword
+execute as @a[tag=poisonsword,nbt=!{SelectedItem:{tag:{ench:["poisonattack"]}}}] run tag @s remove poisonsword
 #1
 ##~1 ~ ~
 #execute as @a at @s if score timer timer matches 1 run particle minecraft:portal ~1 ~1 ~ 0.1 0.1 0.1 0.00000000001 50 force
