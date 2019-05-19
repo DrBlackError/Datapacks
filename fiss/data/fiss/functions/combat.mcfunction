@@ -36,4 +36,7 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:bow"}},nbt=!{Item:{tag:{sort:co
 execute as @e[type=item,nbt={Item:{id:"minecraft:turtle_helmet"}},nbt=!{Item:{tag:{sort:combat}}}] run data merge entity @s {Item:{tag:{sort:combat}}}
 execute as @e[type=item,nbt={Item:{id:"minecraft:spectral_arro"}},nbt=!{Item:{tag:{sort:combat}}}] run data merge entity @s {Item:{tag:{sort:combat}}}
 execute as @e[type=item,nbt={Item:{id:"minecraft:tipped_arrow"}},nbt=!{Item:{tag:{sort:combat}}}] run data merge entity @s {Item:{tag:{sort:combat}}}
-execute as @e[type=item,nbt={Item:{id:"minecraft:iron_ore"}},nbt=!{Item:{tag:{sort:combat}}}] run data merge entity @s {Item:{tag:{sort:combat}}}
+execute as @e[type=item,nbt={Item:{id:"minecraft:crossbow"}},nbt=!{Item:{tag:{sort:combat}}}] run data merge entity @s {Item:{tag:{sort:combat}}}
+execute as @e[type=item,nbt={Item:{id:"minecraft:trident"}},nbt=!{Item:{tag:{sort:combat}}}] run data merge entity @s {Item:{tag:{sort:combat}}}
+execute as @e[type=item,nbt={Item:{id:"minecraft:shield"}},nbt=!{Item:{tag:{sort:combat}}}] run data merge entity @s {Item:{tag:{sort:combat}}}
+execute as @e[type=item,nbt={Item:{id:"minecraft:totem_of_undying"}},nbt=!{Item:{tag:{sort:combat}}}] run data merge entity @s {Item:{tag:{sort:combat}}}
