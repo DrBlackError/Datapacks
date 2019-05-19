@@ -16,7 +16,7 @@ execute as @e[tag=et1,tag=zc4-o-n] at @s run kill @e[type=item_frame,distance=..
 execute as @e[tag=et1,tag=zc4-o-n] at @s run summon minecraft:item_frame ~ ~ ~-1 {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-o-n] at @s run summon minecraft:item_frame ~ ~ ~-2 {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-o-n] at @s run kill @e[type=item,distance=2..4]
-execute as @e[tag=et1,tag=zc4-o-n] at @s run summon item ~ ~ ~-1.5 {Item:{id:"minecraft:written_book",Count:1b,tag:{Kapitel:1,display:{Name:"{\"text\":\"Kapitel I: Die Magie & Du\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"},title:"",author:"LittleRetard",pages:["{\"text\":\"Wenn du das lesen kannst ist irgend was schief gelaufen\",\"color\":\"black\"}"]}}}
+execute as @e[tag=et1,tag=zc4-o-n] at @s run summon item ~ ~ ~-1.5 {Item:{id:"minecraft:written_book",Count:1b,tag:{Kapitel:1,display:{Name:"{\"text\":\"Kapitel I: Die Magie & Du\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"},title:"",author:"DrBlackError",pages:["{\"text\":\"Wenn du das lesen kannst ist irgend was schief gelaufen\",\"color\":\"black\"}"]}}}
 execute as @e[tag=et1,tag=zc4-o-n] at @s run setblock ~ ~-1 ~-3 cauldron
 
 #reset
@@ -40,7 +40,7 @@ execute as @e[tag=et1,tag=zc4-o-s] at @s run kill @e[type=item_frame,distance=..
 execute as @e[tag=et1,tag=zc4-o-s] at @s run summon minecraft:item_frame ~ ~ ~1 {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-o-s] at @s run summon minecraft:item_frame ~ ~ ~2 {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-o-s] at @s run kill @e[type=item,distance=2..4]
-execute as @e[tag=et1,tag=zc4-o-s] at @s run summon item ~ ~ ~1.5 {Item:{id:"minecraft:written_book",Count:1b,tag:{Kapitel:1,display:{Name:"{\"text\":\"Kapitel I: Die Magie & Du\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"},title:"",author:"LittleRetard",pages:["{\"text\":\"Wenn du das lesen kannst ist irgend was schief gelaufen\",\"color\":\"black\"}"]}}}
+execute as @e[tag=et1,tag=zc4-o-s] at @s run summon item ~ ~ ~1.5 {Item:{id:"minecraft:written_book",Count:1b,tag:{Kapitel:1,display:{Name:"{\"text\":\"Kapitel I: Die Magie & Du\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"},title:"",author:"DrBlackError",pages:["{\"text\":\"Wenn du das lesen kannst ist irgend was schief gelaufen\",\"color\":\"black\"}"]}}}
 execute as @e[tag=et1,tag=zc4-o-s] at @s run setblock ~ ~-1 ~3 cauldron
 
 #reset
@@ -64,7 +64,7 @@ execute as @e[tag=et1,tag=zc4-o-w] at @s run kill @e[type=item_frame,distance=..
 execute as @e[tag=et1,tag=zc4-o-w] at @s run summon minecraft:item_frame ~-1 ~ ~ {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-o-w] at @s run summon minecraft:item_frame ~-2 ~ ~ {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-o-w] at @s run kill @e[type=item,distance=..4]
-execute as @e[tag=et1,tag=zc4-o-w] at @s run summon item ~-1.5 ~ ~ {Item:{id:"minecraft:written_book",Count:1b,tag:{Kapitel:1,display:{Name:"{\"text\":\"Kapitel I: Die Magie & Du\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"},title:"",author:"LittleRetard",pages:["{\"text\":\"Wenn du das lesen kannst ist irgend was schief gelaufen\",\"color\":\"black\"}"]}}}
+execute as @e[tag=et1,tag=zc4-o-w] at @s run summon item ~-1.5 ~ ~ {Item:{id:"minecraft:written_book",Count:1b,tag:{Kapitel:1,display:{Name:"{\"text\":\"Kapitel I: Die Magie & Du\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"},title:"",author:"DrBlackError",pages:["{\"text\":\"Wenn du das lesen kannst ist irgend was schief gelaufen\",\"color\":\"black\"}"]}}}
 execute as @e[tag=et1,tag=zc4-o-w] at @s run setblock ~-3 ~-1 ~ cauldron
 
 #reset
@@ -88,7 +88,7 @@ execute as @e[tag=et1,tag=zc4-o-e] at @s run kill @e[type=item_frame,distance=..
 execute as @e[tag=et1,tag=zc4-o-e] at @s run summon minecraft:item_frame ~1 ~ ~ {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-o-e] at @s run summon minecraft:item_frame ~2 ~ ~ {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-o-e] at @s run kill @e[type=item,distance=2..4]
-execute as @e[tag=et1,tag=zc4-o-e] at @s run summon item ~1.5 ~ ~ {Item:{id:"minecraft:written_book",Count:1b,tag:{Kapitel:1,display:{Name:"{\"text\":\"Kapitel I: Die Magie & Du\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"},title:"",author:"LittleRetard",pages:["{\"text\":\"Wenn du das lesen kannst ist irgend was schief gelaufen\",\"color\":\"black\"}"]}}}
+execute as @e[tag=et1,tag=zc4-o-e] at @s run summon item ~1.5 ~ ~ {Item:{id:"minecraft:written_book",Count:1b,tag:{Kapitel:1,display:{Name:"{\"text\":\"Kapitel I: Die Magie & Du\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"},title:"",author:"DrBlackError",pages:["{\"text\":\"Wenn du das lesen kannst ist irgend was schief gelaufen\",\"color\":\"black\"}"]}}}
 execute as @e[tag=et1,tag=zc4-o-e] at @s run setblock ~3 ~-1 ~ cauldron
 
 #reset

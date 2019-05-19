@@ -1,4 +1,4 @@
-#LittleRetard
+#DrBlackError
 #Testet ob ein Block im Umkreis des Spielers ist
 #-
 #

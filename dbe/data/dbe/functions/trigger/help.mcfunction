@@ -1,7 +1,7 @@
-#LittleRetard
+#DrBlackError
 #Gibt beim ausgühren von /trigger
 
-#LittleRetard
+#DrBlackError
 #Ausführung & Reset
 execute as @a[scores={help=1..}] run scoreboard players enable @s home
 execute as @a[scores={help=1..}] run tellraw @s [{"text":"/trigger cmd - Gibt dir einen Commandblock"}]

@@ -1,7 +1,7 @@
-#LittleRetard
+#DrBlackError
 #Erstellt und Konfiguriert die 4 Teams und whitelisted alle Spieler
 
-#LittleRetard
+#DrBlackError
 #Teams erstellen
 team add Rot "Rot"
 team add Gelb "Gelb"
@@ -9,7 +9,7 @@ team add Gruen "Grün"
 team add Blau "Blau"
 team add Admin "Admin"
 
-#LittleRetard
+#DrBlackError
 #Teamfarben zuweisen
 team modify Rot color red
 team modify Gelb color yellow
@@ -17,7 +17,7 @@ team modify Gruen color green
 team modify Blau color blue
 team modify Admin color white
 
-#LittleRetard
+#DrBlackError
 #Teamnamensichtbarkeit deaktivieren
 team modify Rot nametagVisibility never
 team modify Gelb nametagVisibility never
@@ -25,7 +25,7 @@ team modify Gruen nametagVisibility never
 team modify Blau nametagVisibility never
 team modify Admin nametagVisibility always
 
-#LittleRetard
+#DrBlackError
 #Teamprefix festlegen
 team modify Rot prefix "[Team Rot] "
 team modify Gelb prefix "[Team Gelb] "
@@ -33,7 +33,7 @@ team modify Gruen prefix "[Team Grün] "
 team modify Blau prefix "[Team Blau] "
 team modify Admin prefix "[Admin-Dienst] "
 
-#LittleRetard
+#DrBlackError
 #overwrite teamprefixes [deprecated]
 team modify Rot prefix "[Team Rot] "
 team modify Gelb prefix "[Team Multicord] "
@@ -41,9 +41,9 @@ team modify Gruen prefix "[Team Grün] "
 team modify Blau prefix "[Team Blau] "
 team modify Admin prefix "[Admin-Dienst] "
 
-#LittleRetard
+#DrBlackError
 #Team Rot joinen [deprecated]
-team join Rot LittleRetard
+team join Rot DrBlackError
 team join Rot IFloooI
 team join Rot VarexHD
 team join Rot Sliemex
@@ -54,7 +54,7 @@ team join Rot DrBlackRat
 team join Rot masterdominik04
 team join Rot Hechtz
 
-#LittleRetard
+#DrBlackError
 #Team Blau joinen [deprecated]
 team join Blau FlowerPoweer
 team join Blau ProfPsychoK1ller
@@ -78,7 +78,7 @@ team join Blau JosisFuchs
 team join Blau LilaChocobo_
 team join Blau zZFlameZz
 
-#LittleRetard
+#DrBlackError
 #Team Grün joinen [deprecated]
 team join Gruen Homenet_1976YT
 team join Gruen InternetProblem
@@ -94,7 +94,7 @@ team join Gruen Linkero
 #team join Gruen
 #team join Gruen
 
-#LittleRetard
+#DrBlackError
 #Team Gelb joinen [deprecated]
 team join Gelb D0mDom
 team join Gelb leori899
@@ -111,10 +111,10 @@ team join Gelb MiniSeitexPlayZ
 team join Gelb Corlisto
 team join Gelb CyberNitra
 
-#LittleRetard
+#DrBlackError
 #Tags setzen (op,wl) [deprecated]
-tag LittleRetard add op
-tag LittleRetard add wl
+tag DrBlackError add op
+tag DrBlackError add wl
 tag IFloooI add op
 tag IFloooI add wl
 tag VarexHD add wl

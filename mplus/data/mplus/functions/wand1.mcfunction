@@ -1,4 +1,4 @@
-#LittleRetard modified by DrBlackRat
+#DrBlackError modified by DrBlackRat
 #teleport stab
 #mplus/wandc mplus/wand1loop mplus/setup
 

@@ -1,4 +1,4 @@
-#LittleRetard
+#DrBlackError
 #Jeder Befehl, der hier eingetragen wird, wird in jedem (Game-)tick wiederholt ausgeführt
 
 #DrBlackRat
@@ -35,7 +35,7 @@ execute as @a if score @s sekunde matches 60 run scoreboard players set @s sekun
 execute as @a if score @s minute matches 60 run scoreboard players add @s stunde 1
 execute as @a if score @s minute matches 60 run scoreboard players set @s minute 0
 
-#LittleRetard
+#DrBlackError
 #Macht alle im Creative unsichtbar
 #effect give @a[gamemode=creative] invisibility 10 1 true
 
@@ -51,7 +51,7 @@ execute as @e[type=minecraft:snow_golem] at @s run setblock ~ ~ ~ minecraft:snow
 #?
 function svplus:spunishment
 
-#LittleRetard
+#DrBlackError
 #Kopfdrop bei Tot
 function svplus:heads
 
@@ -63,30 +63,30 @@ function svplus:glass
 #"Frieren"-System
 function svplus:cold
 
-#LittleRetard
+#DrBlackError
 #actionbar
 function svplus:actionbar
 
-#LittleRetard
+#DrBlackError
 #stamina
 function svplus:stamina
 
-#LittleRetard
+#DrBlackError
 #timer
 function svplus:timer
 
-#LittleRetard
+#DrBlackError
 #nearblock
 #function svplus:nearblock
 
-#LittleRetard
+#DrBlackError
 #Admin
 function svplus:admin
 
-#LittleRetard
+#DrBlackError
 #Bossbar
 function svplus:bossbar
 
-#LittleRetard
+#DrBlackError
 #Staminaplus
 function svplus:staminaplus
