@@ -14,6 +14,8 @@ more basic scoreboards, tags and detection methods
 
  ## Moreentchants:
 
+ stackable entchantments (sharpness, efficiency)
+
  ## Magicplus:
 
 safezone (WIP)
@@ -45,7 +47,7 @@ inventorystealing like https://www.youtube.com/watch?v=f0tyEAa-2yg
 
  ## Ideas for a Gamemode [Not in work]
 
- Legende:
+ Key:
 
  AS = ArmorStand
 

@@ -48,4 +48,5 @@ execute as @a[scores={stamina=-50}] run kill @s
 
 #DrBlackError
 #reset after death
+execute as @a[scores={Leben=0}] run scoreboard players set @s stamina 100
 execute as @a[scores={stamina=-49..}] run tag @s remove dead
