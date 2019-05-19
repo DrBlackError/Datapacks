@@ -1,4 +1,4 @@
-#DrBlackError
+#LittleRetard
 #Generation der Effekte beim auführen des Magier-Rituals
 summon lightning_bolt ~4 ~ ~4
 summon lightning_bolt ~-4 ~ ~4

@@ -1,4 +1,4 @@
-#DrBlackError
+#LittleRetard
 #Extract poison from poisonous potatos in furnace
 #execute as @e[type=armor_stand,tag=furnace] at @s if block ~ ~ ~ minecraft:furnace{Items: [{Slot:0b,id:"minecraft:poisonous_potato"}],CookTime:198s} run data merge block ~ ~ ~ {Items: [{Slot:2b,id:"minecraft:carrot_on_a_stick",Count:1b,tag:{Unbreakable:1b,Damage:30}}]}
 #execute as @e[type=armor_stand,tag=furnace] at @s if block ~ ~ ~ minecraft:furnace{Items: [{Slot:0b,id:"minecraft:poisonous_potato"}],CookTime:1} run data merge block ~ ~ ~ {Items: [{Slot:0b,id:"minecraft:air",Count:1b}]}

@@ -1,12 +1,12 @@
-#DrBlackError
+#LittleRetard
 #Alle Inhalte dieser Datei werden bei einem Server-Restart oder einem Reload ausgeführt
 
-#DrBlackError
+#LittleRetard
 #Nachricht die beim erfolgreichen Reload gesendet wird
 tellraw @a[team=Admin] {"text":"dbe erfolgreich geladen!","color":"yellow"}
 playsound minecraft:entity.arrow.hit_player master @a ~ ~ ~ 1 1 1
 
-#DrBlackError
+#LittleRetard
 #add scoreboards and trigger and enable trigger
 scoreboard objectives add cmd trigger "cmd"
 scoreboard players enable @a cmd

@@ -1,7 +1,5 @@
-#DrBlackError
-#
-#
-#
+#LittleRetard
+#Jeder Befehl, der hier eingetragen wird, wird in jedem (Game-)tick wiederholt ausgeführt
 
 function basicplus:timetag
 function basicplus:exact

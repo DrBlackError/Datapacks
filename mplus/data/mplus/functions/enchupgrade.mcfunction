@@ -1,4 +1,4 @@
-#Flololilan
+#IFloooI
 #Ritual erkennen und ausführen
 #??
 execute as @e[type=armor_stand,tag=et1] at @s unless block ~ ~-1 ~ minecraft:enchanting_table run kill @s

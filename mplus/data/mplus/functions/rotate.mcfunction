@@ -1,4 +1,4 @@
-#DrBlackError + DrBlackRat
+#LittleRetard + DrBlackRat
 #Zauberstäbe wechseln
 
 #Stab 1 zu Stab 2

@@ -1,4 +1,4 @@
-#DrBlackError
+#LittleRetard
 #Jeder Befehl, der hier eingetragen wird, wird in jedem (Game-)tick wiederholt ausgeführt
 function dbe:trigger/cmd
 #function dbe:tick/sneaktel

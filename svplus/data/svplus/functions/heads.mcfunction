@@ -1,8 +1,8 @@
-#DrBlackError
-#Droppt Köpfe beim Tod von DrblackError
-execute as @a[name=DrBlackError,scores={life0},tag=!bek] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"DrBlackError"}}}}
-execute as @a[name=DrBlackError,scores={life0},tag=!bek] run tag DrBlackError add bek
-execute as @a[name=DrBlackError,scores={life1..,},tag=bek] run tag DrBlackError remove bek
+#LittleRetard
+#Droppt Köpfe beim Tod von LittleRetard
+execute as @a[name=LittleRetard,scores={life0},tag=!bek] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"LittleRetard"}}}}
+execute as @a[name=LittleRetard,scores={life0},tag=!bek] run tag LittleRetard add bek
+execute as @a[name=LittleRetard,scores={life1..,},tag=bek] run tag LittleRetard remove bek
 
 #IFloooI
 #Droppt Köpfe beim Tod von IFloooI

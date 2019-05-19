@@ -1,11 +1,11 @@
-#DrBlackError
+#LittleRetard
 #Alle Inhalte dieser Datei werden bei einem Server-Restart oder einem Reload ausgeführt
 
-#DrBlackError
+#LittleRetard
 #Nachricht die beim erfolgreichen Reload gesendet wird
 tellraw @a[team=Admin] {"text":"Svplus erfolgreich geladen!","color":"yellow"}
 
-#DrBlackError
+#LittleRetard
 #Erstellt Dummy Scoreboards
 scoreboard objectives add mana dummy
 scoreboard objectives add manatime dummy
@@ -38,7 +38,7 @@ scoreboard objectives add stamina dummy
 scoreboard objectives add jump minecraft.custom:minecraft.jump
 scoreboard objectives add run minecraft.custom:minecraft.sprint_one_cm
 
-#DrBlackError
+#LittleRetard
 #Bossbar festlegen
 execute as @a run bossbar add healthbar "Target Health"
 execute as @a run bossbar set healthbar color red
@@ -52,7 +52,7 @@ execute as @a run bossbar set creeperbar players @a
 #execute as @a run bossbar add xyzbar "xyz"
 #execute as @a run bossbar set xyznbar players @a
 
-#DrBlackError
+#LittleRetard
 #Scores auf Standard setzen
 scoreboard players set @a stamina 100
 scoreboard players set @a mana 10

@@ -1,4 +1,4 @@
-#DrBlackError
+#LittleRetard
 #"Frieren"-System
 execute as @a[tag=night,tag=!warm,tag=!cold_protection] run scoreboard players add @s temp_counter 1
 execute as @a[tag=night,tag=warm,tag=!cold_protection] run scoreboard players add @s temp_counter 4

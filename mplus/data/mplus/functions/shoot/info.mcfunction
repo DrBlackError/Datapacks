@@ -1,5 +1,5 @@
 #By DrBlackRat
-#only crafting by DrBlackError
+#only crafting by LittleRetard
 #das sind die shoot stäbe
 
 #Shoot1 Feuer stab          # /give @s minecraft:carrot_on_a_stick{display:{Name:"{\"text\":\"Feuer-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Feuer-Stab kannst du Feuer scheißen und Gegner in brand setzen"]},Unbreakable:1b,Damage:2} 1

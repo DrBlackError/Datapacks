@@ -1,4 +1,4 @@
-#DrBlackError
+#LittleRetard
 #Jeder Befehl, der hier eingetragen wird, wird in jedem (Game-)tick wiederholt ausgeführt
 
 #DrBlackRat
@@ -21,11 +21,11 @@ function svplus:playerid
 #Anti lagg System Des Servers
 function svplus:antilagg/antilagg
 
-#Flololilan
+#IFloooI
 #Punishment Scores für Spieler mit schlechtem benehmen da Temp-Ban nicht möglich
 function svplus:punishment
 
-#Flololilan
+#IFloooI
 #Spielzeit
 execute as @a run scoreboard players add @s tick 1
 execute as @a if score @s tick matches 20 run scoreboard players add @s sekunde 1
@@ -35,11 +35,11 @@ execute as @a if score @s sekunde matches 60 run scoreboard players set @s sekun
 execute as @a if score @s minute matches 60 run scoreboard players add @s stunde 1
 execute as @a if score @s minute matches 60 run scoreboard players set @s minute 0
 
-#DrBlackError
+#LittleRetard
 #Macht alle im Creative unsichtbar
 #effect give @a[gamemode=creative] invisibility 10 1 true
 
-#Flololilan
+#IFloooI
 #Clear Lagg
 function svplus:antilagg/antimob
 
@@ -51,7 +51,7 @@ execute as @e[type=minecraft:snow_golem] at @s run setblock ~ ~ ~ minecraft:snow
 #?
 function svplus:spunishment
 
-#DrBlackError
+#LittleRetard
 #Kopfdrop bei Tot
 function svplus:heads
 
@@ -63,30 +63,30 @@ function svplus:glass
 #"Frieren"-System
 function svplus:cold
 
-#DrBlackError
+#LittleRetard
 #actionbar
 function svplus:actionbar
 
-#DrBlackError
+#LittleRetard
 #stamina
 function svplus:stamina
 
-#DrBlackError
+#LittleRetard
 #timer
 function svplus:timer
 
-#DrBlackError
+#LittleRetard
 #nearblock
 #function svplus:nearblock
 
-#DrBlackError
+#LittleRetard
 #Admin
 function svplus:admin
 
-#DrBlackError
+#LittleRetard
 #Bossbar
 function svplus:bossbar
 
-#DrBlackError
+#LittleRetard
 #Staminaplus
 function svplus:staminaplus

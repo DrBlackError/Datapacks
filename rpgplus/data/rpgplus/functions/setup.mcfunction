@@ -1,9 +1,9 @@
-#DrBlackError
+#LittleRetard
 #Alle Inhalte dieser Datei werden bei einem Server-Restart oder einem Reload ausgeführt
 #
 #
 
-#DrBlackError
+#LittleRetard
 #Nachricht die beim erfolgreichen Reload gesendet wird
 #-
 #-

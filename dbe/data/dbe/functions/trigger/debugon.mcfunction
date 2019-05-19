@@ -1,7 +1,7 @@
-#DrBlackError
+#LittleRetard
 #Gibt beim ausgühren von /trigger
 
-#DrBlackError
+#LittleRetard
 #Ausführung & Reset
 execute as @a[scores={debugon=1..}] run scoreboard players enable @s debugon
 execute as @a[scores={debugon=1..}] run scoreboard players set @a debug 1

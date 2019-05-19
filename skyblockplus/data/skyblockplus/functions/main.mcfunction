@@ -1,4 +1,4 @@
-#DrBlackError
+#LittleRetard
 #Jeder Befehl, der hier eingetragen wird, wird in jedem (Game-)tick wiederholt ausgeführt
 
 #DrBlackRat
@@ -17,6 +17,6 @@ function skyblockplus:moreapples
 #Skyblock-Sieb [WIP]
 function skyblockplus:sieve
 
-#DrBlackError/IFloooI
+#LittleRetard/IFloooI
 #Gewinnung von Gift
 function skyblockplus:poison

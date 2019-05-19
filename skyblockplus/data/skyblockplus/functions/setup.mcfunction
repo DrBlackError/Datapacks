@@ -1,7 +1,7 @@
-#DrBlackError & DrBlackRat & IFlooI
+#LittleRetard & DrBlackRat & IFlooI
 #Alle Inhalte dieser Datei werden bei einem Server-Restart oder einem Reload ausgeführt
 
-#DrBlackError
+#LittleRetard
 #Nachricht die beim erfolgreichen Reload gesendet wird
 tellraw @a[team=Admin] {"text":"Skyblockplus erfolgreich geladen!","color":"yellow"}
 

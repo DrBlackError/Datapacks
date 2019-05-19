@@ -1,11 +1,11 @@
-#DrBlackError
+#LittleRetard
 #Alle Inhalte dieser Datei werden bei einem Server-Restart oder einem Reload ausgeführt
 
-#DrBlackError
+#LittleRetard
 #Nachricht die beim erfolgreichen Reload gesendet wird
 tellraw @a[team=Admin] {"text":"Magicplus erfolgreich geladen!","color":"yellow"}
 
-#DrBlackError
+#LittleRetard
 #Erstellt Dummy Scoreboards
 scoreboard objectives add enchanttime dummy
 scoreboard objectives add timegoal dummy
@@ -16,18 +16,18 @@ scoreboard objectives add mana dummy
 scoreboard objectives add manatime dummy
 scoreboard objectives add tptime dummy
 
-#DrBlackError
+#LittleRetard
 #Erstellt spezifische Scoreboards
 scoreboard objectives add sneaktime minecraft.custom:minecraft.sneak_time
 scoreboard objectives add sprinttime minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add walktime minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add drop_sneak minecraft.custom:minecraft.sneak_time "drop_sneak"
 
-#DrBlackError
+#LittleRetard
 #Setzt scores von Scoreboards zurück
 scoreboard players set #tools_random_return math_numbers 0
 
-#DrBlackError
+#LittleRetard
 #Erstellt Trigger
 #scoreboard objectives add Club trigger
 

@@ -1,7 +1,7 @@
-#DrBlackError
+#LittleRetard
 #Gibt beim ausgühren von /trigger
 
-#DrBlackError
+#LittleRetard
 #Ausführung & Reset
 execute as @a[scores={home=1..}] run scoreboard players enable @s home
 execute as @a[scores={home=1..}] run title @s title " "
