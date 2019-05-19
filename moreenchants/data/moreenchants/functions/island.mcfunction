@@ -1,3 +1,4 @@
+#IFlooooI
 execute as @a[scores={islandport=0}] at @s if entity @e[type=armor_stand,name=islandport,distance=..2] run scoreboard players add @s islandport 1
 execute as @a[scores={islandport=1..}] run scoreboard players add @s islandport 1
 execute as @a[scores={islandport=1..90}] run effect give @s minecraft:blindness 2 255 true
