@@ -7,42 +7,41 @@ Datapacks for you and me
  # Roadmap:
 
  ## Basicplus:
-more basic scoreboards and detection methods
+
+more basic scoreboards, tags and detection methods
 
  ## DBE:
 
- ## Entchantingplus:
+ ## Moreentchants:
 
- ## mplus:
+ ## Magicplus:
+
+safezone (WIP)
+
+wands in various woodtypes
 
  ## RPGplus:
 
  ## Skyblockplus:
 
- ## Svplus:
+ ## Survivalplus:
+
+rework for sleepcounter (percental)
+
+freezing-system (you need to stay to a heat-source to prevent negative effect at night e.g. slowness, damage to death)
+
+make poisonous potatoes more useful
+
+ ## Teamplus:
+
+team advantages
+
+glass for team-only transit
 
  ## uncategorized:
 inventorystealing like https://www.youtube.com/watch?v=f0tyEAa-2yg
 
  ## Old ToDo's [deprecated, list need a rework]:
-
- svplus:
-1. Parameter, Konstanten & Tags vereinheitlichen
-2. Schlaffunktion überarbeiten (prozentual)
-3. "Timber Mod" mit Goldaxt
-4. Join/Leave TP
-5. Glas durch das Man nur durchgehen kann wenn man die richtige Teamfarbe hat
-Die Leute die, die Farbe Des Glases als Team haben können durch doch alle die nicht in dem Team sind würden einfach wie ein Blinder Vogel gegen die Wand Klatschen
-6. Giftige Kartoffeln nützlich machen
-7. "Frieren"-System in der Nacht:
-Man muss sich an einer Wärmequelle befinden, damit man nicht negative Effekte in der Nacht bekommt (Slowness, Damage bis hin zum Tod)
-8. Safezone?
-
- mplus:
-1. Parameter, Konstanten & Tags vereinheitlichen
-2. Zauberstäbe in allen Holzsorten
-3. wand1c.mcfunction
-
 
  ## Ideas for a Gamemode [Not in work]
 
@@ -55,51 +54,51 @@ Man muss sich an einer Wärmequelle befinden, damit man nicht negative Effekte i
  SB = Scoreboard
 
 
- Teambasierter Modus (2 Teams, Rot, Blau)
+ Teambased Mode (2 Teams, Red, Blue)
 
- Zufällige Teamzuordnung von den Spielern (Teleport @r zu einem AS)
+ Random Teamassignment of players (Teleport @r to a AS)
 
- Vielleicht 2er Gruppen?
+ Maybe squads with 2 or more player?
 
- Möglichkeit der Spieler zur Auswahl zum Mitspielen oder Zuschauen (CS)
+ Possibility to choose to spectate or play (CS)
 
- Zufällige Spawnpunkte (festsetzen der Spawnpunkte mit /trigger tspawn)
+ Random Spawns (assign Spawns with /trigger tspawn)
 
- Möglichkeit zum Auswählen des Spawns
+ Possibility to choose Spawnpoint
 
- Anfangs Tutorial?
+ Newbie tutorial?
 
- Fertige Klassen zur Übung
+ Ready classes to prectice
 
- TeamSB (Spielercounter)
+ Team Scoreboard (Playercounter)
 
- Währung erhalten durch Kills?
+ Get money for killing?
 
- ...-Punkte!
+ Credits?
 
- Random Drops von Geld auf der Map?
+ Random moneydrops on the map?
 
- Verschiedene Angriffe (Manaabzug oder ä.)
+ Diffrent types to attack (Manadrain etc.)
 
- Verschiedenste Fähigkeiten?
+ Diffrent abilities?
 
  Skill system
 
- Waffen Upgrade System?
+ Weapon upgrade System?
 
- Fortschrittssystem+Exklusive Waffen/Fähigkeiten Freischalten?
+ Advancements + unlockable exclusive weapons/abilities?
 
- Verteidigungs Mechanismen?
+ Defensive mechanics?
 
- Map Abbaubar?
+ Map destroyable?
 
- Veränderungen der Map durch Spells o. Special items?
+ Map with Spells or special items?
 
- Strategische Punkte:
+ Strategy Pounts:
 
- Ressourcen Sammelbar?
+ Ressources collectable?
 
- Holz,Eisen,Essen?
+ Wood, Iron, Food?
 
  ## Intern
 https://docs.google.com/spreadsheets/d/1tBAyK2HNIqExwpSnbSCwUWBO4iBVzBMIZgG4YtSJte4/edit
