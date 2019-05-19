@@ -27,6 +27,7 @@ function enchantingplus:weapons/golden_sword
 function enchantingplus:weapons/iron_sword
 function enchantingplus:weapons/diamond_sword
 
+function enchantingplus:island
 
 execute as @a[tag=books] run give @p minecraft:enchanted_book{CustomModelData:6,ench:["glowattack"],display:{Name:"{\"text\":\"Buch der Leuchtenden Berührung\",\"color\":\"gold\"}"},HideFlags:63} 1
 execute as @a[tag=books] run give @p minecraft:enchanted_book{CustomModelData:5,ench:["poisonattack"],display:{Name:"{\"text\":\"Buch der Vergiftenden Berührung\",\"color\":\"green\"}"},HideFlags:63} 1

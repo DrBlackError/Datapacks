@@ -22,11 +22,11 @@ execute as @e[tag=drop_ench_rite_-1] at @s if entity @e[tag=drop_ench_rite_-2,di
 execute as @e[type=item,tag=ench_start_rite] at @s run kill @e[tag=drop_ench_rite_2,distance=..1,limit=1]
 execute as @e[type=item,tag=ench_start_rite] at @s run kill @e[tag=drop_ench_rite_3,distance=..1,limit=1]
 execute as @e[type=item,tag=ench_start_rite] at @s run kill @e[tag=drop_ench_rite_4,distance=..1,limit=1]
-execute as @e[type=item,tag=ench_start_rite] at @s run function entplus:ritual
+execute as @e[type=item,tag=ench_start_rite] at @s run function mplus:ritual
 execute as @e[type=item,tag=ench_start_rite] at @s run weather thunder
 execute as @e[type=item,tag=ench_start_rite] at @s run summon minecraft:lightning_bolt ~ ~ ~
 execute as @e[type=item,tag=ench_start_rite] at @a run playsound entity.wolf.howl master @a ~ ~ ~ 1 0.8 1
-#execute as @e[type=item,tag=ench_start_rite] at @s as @a at @s run function entplus:lightningbolt
+#execute as @e[type=item,tag=ench_start_rite] at @s as @a at @s run function mplus:lightningbolt
 
 execute as @e[type=item,tag=ench_start_rite] at @s align xyz positioned ~0.5 ~1 ~0.5 run summon armor_stand ~ ~ ~ {NoGravity:1b,CustomNameVisible:1b,Invulnerable:1b,Small:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["et1"],CustomName:"{\"text\":\"+\",\"color\":\"dark_blue\"}"}
 execute as @e[type=item,tag=ench_start_rite] at @s run tellraw @a[distance=..5] {"text":"Leg dich nicht mit Sachen an die du nicht verstehst!!!","color":"dark_purple"}

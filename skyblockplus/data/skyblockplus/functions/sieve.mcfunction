@@ -10,6 +10,6 @@ execute as @e[name=sieve,scores={sieve=..26}] at @s run particle minecraft:block
 execute as @e[name=sieve,scores={sieve=1..26}] at @s run tp @s ~ ~-0.04 ~
 execute as @e[name=sieve,scores={sieve=1..26}] at @s run scoreboard players remove @s sieve 1
 execute as @e[type=armor_stand,name=sieve,scores={sieve=1},tag=!start,tag=started] at @s run scoreboard players set @e[type=armor_stand,name=sieve,tag=start,tag=!started,limit=1,sort=furthest,distance=..2] sieve 26
-execute as @e[type=armor_stand,name=sieve_main] at @s if entity @e[type=armor_stand,name=sieve,scores={sieve=1},distance=..2] run loot spawn ~ ~ ~ loot entplus:test2
+execute as @e[type=armor_stand,name=sieve_main] at @s if entity @e[type=armor_stand,name=sieve,scores={sieve=1},distance=..2] run loot spawn ~ ~ ~ loot mplus:test2
 execute as @e[type=armor_stand,name=sieve,scores={sieve=1}] at @s run kill @s
 execute as @e[type=armor_stand,name=sieve,scores={sieve=27..}] at @s run kill @s
