@@ -1,4 +1,4 @@
-#sort_redstone
+#sort_redstone items
 execute as @e[type=armor_stand,tag=sort_sorter] at @s run tp @e[type=item,nbt={Item:{tag:{sort:redstone}}},distance=..1,limit=1] @e[type=armor_stand,tag=sort_redstone,limit=1,sort=nearest]
 execute as @e[type=item,nbt={Item:{id:"minecraft:redstone"}},nbt=!{Item:{tag:{sort:redstone}}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
 execute as @e[type=item,nbt={Item:{id:"minecraft:redstone_torch"}},nbt=!{Item:{tag:{sort:redstone}}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
