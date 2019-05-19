@@ -4,6 +4,8 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:leather_chestplate"}},nbt=!{Ite
 execute as @e[type=item,nbt={Item:{id:"minecraft:leather_leggings"}},nbt=!{Item:{tag:{sort:combat}}}] run data merge entity @s {Item:{tag:{sort:combat}}}
 execute as @e[type=item,nbt={Item:{id:"minecraft:leather_boots"}},nbt=!{Item:{tag:{sort:combat}}}] run data merge entity @s {Item:{tag:{sort:combat}}}
 execute as @e[type=item,nbt={Item:{id:"minecraft:wooden_sword"}},nbt=!{Item:{tag:{sort:combat}}}] run data merge entity @s {Item:{tag:{sort:combat}}}
+execute as @e[type=item,nbt={Item:{id:"minecraft:stone_sword"}},nbt=!{Item:{tag:{sort:combat}}}] run data merge entity @s {Item:{tag:{sort:combat}}}
+
 
 #Chainmail
 execute as @e[type=item,nbt={Item:{id:"minecraft:chainmail_helmet"}},nbt=!{Item:{tag:{sort:combat}}}] run data merge entity @s {Item:{tag:{sort:combat}}}
