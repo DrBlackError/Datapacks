@@ -18,6 +18,7 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:quartz"}},nbt=!{Item:{tag:{sort
 execute as @e[type=item,nbt={Item:{id:"minecraft:nether_star"}},nbt=!{Item:{tag:{sort:oresingots}}}] run data merge entity @s {Item:{tag:{sort:oresingots}}}
 execute as @e[type=item,nbt={Item:{id:"minecraft:coal"}},nbt=!{Item:{tag:{sort:oresingots}}}] run data merge entity @s {Item:{tag:{sort:oresingots}}}
 execute as @e[type=item,nbt={Item:{id:"minecraft:charcoal"}},nbt=!{Item:{tag:{sort:oresingots}}}] run data merge entity @s {Item:{tag:{sort:oresingots}}}
+execute as @e[type=item,nbt={Item:{id:"minecraft:diamond"}},nbt=!{Item:{tag:{sort:oresingots}}}] run data merge entity @s {Item:{tag:{sort:oresingots}}}
 
 #blocks
 execute as @e[type=item,nbt={Item:{id:"minecraft:diamond_block"}},nbt=!{Item:{tag:{sort:oresingots}}}] run data merge entity @s {Item:{tag:{sort:oresingots}}}
