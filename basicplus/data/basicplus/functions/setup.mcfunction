@@ -41,6 +41,13 @@ scoreboard objectives setdisplay belowName life
 
 #IFloooI
 #Setting Gamemodes faster
-#scoreboard objectives add 1 trigger
-#scoreboard objectives add 2 trigger
-#scoreboard objectives add 3 trigger
+scoreboard objectives add 1 trigger
+scoreboard objectives add 2 trigger
+scoreboard objectives add 3 trigger
+
+#Afk System
+scoreboard objectives add afk_timer dummy
+scoreboard objectives add afk_timer dummy
+scoreboard objectives add rotation_check dummy
+scoreboard objectives add rotation dummy
+scoreboard objectives add rotation_timer dummy
