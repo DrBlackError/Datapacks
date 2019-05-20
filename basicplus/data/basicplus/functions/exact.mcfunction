@@ -1,6 +1,6 @@
 #DrBlackError by Halbzwilling
 #Tracken von Carrot clicks
-#main
+#tick
 
 execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:1}}}] at @s run function mplus:wand1
 execute as @a[scores={exact=1..},nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}]}] at @s run function mplus:tp_stab_homeset

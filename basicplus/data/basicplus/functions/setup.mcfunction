@@ -8,22 +8,28 @@ execute as @a[team=Admin] at @s run playsound minecraft:entity.arrow.hit_player 
 
 #DrBlackError
 #Added nessesary scoreboards
+
+#DrBlackError
 #life = health
 scoreboard objectives add life
 
+#DrBlackError
 #leave = times left Server/Game
 scoreboard objectives add leave minecraft.custom:minecraft.leave_game
 
+#DrBlackError
 #timer = dummy
 scoreboard objectives add timer dummy
 
+#DrBlackError
 #sleeping = dummy
 scoreboard objectives add sleeping dummy
 
+#DrBlackError
 #exact = rclick with Carrot on a Stick
 scoreboard objectives add exact minecraft.used:minecraft.carrot_on_a_stick
 
-#?
+#DrBlackRat
 #barrel_placed = times placed barrels // Customcrafting
 scoreboard objectives add barrel_placed minecraft.used:minecraft.barrel
 
@@ -32,3 +38,9 @@ scoreboard objectives add barrel_placed minecraft.used:minecraft.barrel
 scoreboard objectives setdisplay belowName life
 #scoreboard objectives setdisplay list xyz
 #scoreboard objectives setdisplay sidebar xyz
+
+#IFloooI
+#Setting Gamemodes faster
+scoreboard objectives add 1 trigger
+scoreboard objectives add 2 trigger
+scoreboard objectives add 3 trigger
