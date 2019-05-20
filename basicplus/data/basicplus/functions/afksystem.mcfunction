@@ -11,9 +11,9 @@ execute as @a store result score @s posY run data get entity @s Pos[1] 1
 execute as @a store result score @s posZ run data get entity @s Pos[2] 1
 
 #Sets Position and Rotation to another Variable after 1 Second
-execute as @a[scores={rotation_timer=20}] run scoreboard players operation @s posX_check = @s posX
-execute as @a[scores={rotation_timer=20}] run scoreboard players operation @s posY_check = @s posY
-execute as @a[scores={rotation_timer=20}] run scoreboard players operation @s posZ_check = @s posZ
+execute as @a[scores={rotation_timer=1200}] run scoreboard players operation @s posX_check = @s posX
+execute as @a[scores={rotation_timer=1200}] run scoreboard players operation @s posY_check = @s posY
+execute as @a[scores={rotation_timer=1200}] run scoreboard players operation @s posZ_check = @s posZ
 
 #Chang
 execute as @a store success score @s afk_posX if score @s posX = @s posX_check
@@ -28,7 +28,7 @@ execute as @a[scores={posX_check=1}] run scoreboard players add @s posX_timer 1
 execute as @a[scores={posY_check=1}] run scoreboard players add @s posY_timer 1
 execute as @a[scores={posZ_check=1}] run scoreboard players add @s posZ_timer 1
 #
-execute as @a[scores={rotation_timer=21..}] run scoreboard players set @s rotation_timer 0
+execute as @a[scores={rotation_timer=61..}] run scoreboard players set @s rotation_timer 0
 execute as @a[scores={afk_finish=1}] run scoreboard players add @s afk_timer 1
 execute as @a[scores={afk_finish=0}] run scoreboard players reset @s afk_timer
 execute as @a[scores={afk_timer=6000}] run tag @s add afk_setup
