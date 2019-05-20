@@ -47,8 +47,6 @@ scoreboard objectives add 3 trigger
 
 #Afk System
 scoreboard objectives add afk_timer dummy
-scoreboard objectives add rotation_check dummy
-scoreboard objectives add rotation dummy
 scoreboard objectives add rotation_timer dummy
 scoreboard objectives add posX_check dummy
 scoreboard objectives add posY_check dummy
