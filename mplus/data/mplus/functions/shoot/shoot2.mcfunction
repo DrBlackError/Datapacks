@@ -10,7 +10,8 @@ execute as @a[tag=shoot2shoot] at @s run scoreboard players remove @s mana 6
 execute as @a[tag=shoot2shoot] at @s run playsound minecraft:entity.illusioner.prepare_blindness ambient @a[distance=..20]
 execute as @a[tag=shoot2shoot] at @s run summon area_effect_cloud ~ ~ ~ {NoGravity:1b,Particle:"dust",Duration:40,Tags:["shoot2objekt"]}
 execute as @a[tag=shoot2shoot] at @s run tp @e[tag=shoot2objekt,limit=1,sort=nearest] @s
-execute if entity @a[tag=shoot2shoot] as @e[tag=shoot2objekt] at @s run tp @s ~ ~1.5 ~
+execute if entity @a[tag=shoot2shoot] as @e[tag=shoot2objekt,tag=!shoot2up] at @s run tp @s ~ ~1.5 ~
+execute if entity @a[tag=shoot2shoot] as @e[tag=shoot2objekt,tag=!shoot2up] at @s run tag @s add shoot2up
 execute as @e[tag=shoot2objekt] at @s run tp @s ^ ^ ^1
 execute if entity @a[tag=shoot2shoot] as @e[tag=shoot2objekt] at @s run tp @s ^ ^ ^2
 execute as @e[tag=shoot2objekt] at @s run particle minecraft:dust 0 0 1 2 ~ ~ ~ 0 0 0 1 10 force

@@ -10,7 +10,8 @@ execute as @a[tag=shoot1shoot] at @s run scoreboard players remove @s mana 5
 execute as @a[tag=shoot1shoot] at @s run playsound minecraft:entity.illusioner.prepare_mirror ambient @a[distance=..20]
 execute as @a[tag=shoot1shoot] at @s run summon area_effect_cloud ~ ~ ~ {NoGravity:1b,Particle:"dust",Duration:40,Tags:["shoot1objekt"]}
 execute as @a[tag=shoot1shoot] at @s run tp @e[tag=shoot1objekt,limit=1,sort=nearest] @s
-execute if entity @a[tag=shoot1shoot] as @e[tag=shoot1objekt] at @s run tp @s ~ ~1.5 ~
+execute if entity @a[tag=shoot1shoot] as @e[tag=shoot1objekt,tag=!shoot1up] at @s run tp @s ~ ~1.5 ~
+execute if entity @a[tag=shoot1shoot] as @e[tag=shoot1objekt,tag=!shoot1up] at @s run tag @s add shoot1up
 execute as @e[tag=shoot1objekt] at @s run tp @s ^ ^ ^1
 execute if entity @a[tag=shoot1shoot] as @e[tag=shoot1objekt] at @s run tp @s ^ ^ ^2
 execute as @e[tag=shoot1objekt] at @s run particle minecraft:flame ~ ~ ~ 0 0 0 0.05 20 force

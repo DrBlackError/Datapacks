@@ -10,7 +10,8 @@ execute as @a[tag=shoot3shoot] at @s run scoreboard players remove @s mana 3
 execute as @a[tag=shoot3shoot] at @s run playsound minecraft:block.snow.place ambient @a[distance=..20] ~ ~ ~ 100
 execute as @a[tag=shoot3shoot] at @s run summon area_effect_cloud ~ ~ ~ {NoGravity:1b,Particle:"dust",Duration:40,Tags:["shoot3objekt"]}
 execute as @a[tag=shoot3shoot] at @s run tp @e[tag=shoot3objekt,limit=1,sort=nearest] @s
-execute if entity @a[tag=shoot3shoot] as @e[tag=shoot3objekt] at @s run tp @s ~ ~1.5 ~
+execute if entity @a[tag=shoot3shoot] as @e[tag=shoot3objekt,tag=!shoot3up] at @s run tp @s ~ ~1.5 ~
+execute if entity @a[tag=shoot3shoot] as @e[tag=shoot3objekt,tag=!shoot3up] at @s run tag @s add shoot3up
 execute as @e[tag=shoot3objekt] at @s run tp @s ^ ^ ^1
 execute if entity @a[tag=shoot3shoot] as @e[tag=shoot3objekt] at @s run tp @s ^ ^ ^2
 execute as @e[tag=shoot3objekt] at @s run particle minecraft:dust 0 1 1 2 ~ ~ ~ 0 0 0 1 10 force
