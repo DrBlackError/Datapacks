@@ -41,6 +41,6 @@ scoreboard objectives setdisplay belowName life
 
 #IFloooI
 #Setting Gamemodes faster
-scoreboard objectives add 1 trigger
-scoreboard objectives add 2 trigger
-scoreboard objectives add 3 trigger
+#scoreboard objectives add 1 trigger
+#scoreboard objectives add 2 trigger
+#scoreboard objectives add 3 trigger
