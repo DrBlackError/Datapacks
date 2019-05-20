@@ -60,3 +60,4 @@ scoreboard objectives add afk_rotation dummy
 scoreboard objectives add afk_posX dummy
 scoreboard objectives add afk_posY dummy
 scoreboard objectives add afk_posZ dummy
+scoreboard objectives add afk_finish dummy
