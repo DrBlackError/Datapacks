@@ -22,7 +22,7 @@ execute as @a store success score @s afk_posZ if score @s posZ = @s posZ_check
 
 #Compares all Scores and Finishs it in the last one
 execute as @a[scores={afk_posX=1,afk_posY=1,afk_posZ=1}] run scoreboard players set @s afk_finish 1
-execute as @a unless entity @s[scores={afk_posX=1,afk_posY=1,afk_posZ=1,=1}] run scoreboard players set @s afk_finish 0
+execute as @a unless entity @s[scores={afk_posX=1,afk_posY=1,afk_posZ=1}] run scoreboard players set @s afk_finish 0
 #
 execute as @a[scores={posX_check=1}] run scoreboard players add @s posX_timer 1
 execute as @a[scores={posY_check=1}] run scoreboard players add @s posY_timer 1
