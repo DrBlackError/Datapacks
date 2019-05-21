@@ -1,6 +1,6 @@
 #DrBlackRat
 #Customcrafting halt
-#skyblockplus:main,
+#basicplus:main, basicplus:setup
 #
 
 

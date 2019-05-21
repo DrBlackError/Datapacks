@@ -23,7 +23,7 @@ effect give @e[tag=ice] minecraft:slow_falling 5 255 true
 effect give @e[tag=ice] minecraft:jump_boost 5 200 true
 execute as @e[tag=ice] at @s run playsound minecraft:block.glass.break ambient @a[distance=..20]
 execute as @e[tag=ice] at @s run particle minecraft:dust 0 1 1 10 ~ ~ ~ 0 0 0 1 20 force
-execute as @e[tag=ice] at @s run kill @e[tag=shoot3objekt,limit=1,sort=nearest,type=!item,type=!armor_stand,type=!area_effect_cloud]
+execute as @e[tag=ice] at @s run kill @e[tag=shoot3objekt,limit=1,sort=nearest]
 
 #reset
 scoreboard players reset @a[scores={shootclick3=1..}] shootclick3
