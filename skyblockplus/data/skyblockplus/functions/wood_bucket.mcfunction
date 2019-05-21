@@ -93,10 +93,46 @@ execute as @e[tag=water_was_projektil] at @s unless block ~ ~ ~ water[level=0] r
 
 execute as @e[tag=water_was_projektil] at @s if block ^ ^ ^1 cauldron run kill @s
 
-execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ~ ~ ~ air run replaceitem entity @a[tag=water_wbw_shoot,limit=1,sort=nearest] weapon.mainhand minecraft:carrot_on_a_stick{CustomModelData:5,display:{Name:"{\"text\":\"Holzeimer\",\"italic\":\"false\"}"},HideFlags:4}
-execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ~ ~ ~ air run playsound minecraft:item.bucket.empty ambient @a
-execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ~ ~ ~ air run setblock ~ ~ ~ water
-execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ~ ~ ~ air run kill @s
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron unless block ^ ^ ^1 water if block ~ ~ ~ air run replaceitem entity @a[tag=water_wbw_shoot,limit=1,sort=nearest] weapon.mainhand minecraft:carrot_on_a_stick{CustomModelData:5,display:{Name:"{\"text\":\"Holzeimer\",\"italic\":\"false\"}"},HideFlags:4}
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron unless block ^ ^ ^1 water if block ~ ~ ~ air run playsound minecraft:item.bucket.empty ambient @a
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron unless block ^ ^ ^1 water if block ~ ~ ~ air run setblock ~ ~ ~ water
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron unless block ^ ^ ^1 water if block ~ ~ ~ air run kill @s
+
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=7] run replaceitem entity @a[tag=water_wbw_shoot,limit=1,sort=nearest] weapon.mainhand minecraft:carrot_on_a_stick{CustomModelData:5,display:{Name:"{\"text\":\"Holzeimer\",\"italic\":\"false\"}"},HideFlags:4}
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=7] run playsound minecraft:item.bucket.empty ambient @a
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=7] run setblock ^ ^ ^1 water
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=7] run kill @s
+
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=6] run replaceitem entity @a[tag=water_wbw_shoot,limit=1,sort=nearest] weapon.mainhand minecraft:carrot_on_a_stick{CustomModelData:5,display:{Name:"{\"text\":\"Holzeimer\",\"italic\":\"false\"}"},HideFlags:4}
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=6] run playsound minecraft:item.bucket.empty ambient @a
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=6] run setblock ^ ^ ^1 water
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=6] run kill @s
+
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=5] run replaceitem entity @a[tag=water_wbw_shoot,limit=1,sort=nearest] weapon.mainhand minecraft:carrot_on_a_stick{CustomModelData:5,display:{Name:"{\"text\":\"Holzeimer\",\"italic\":\"false\"}"},HideFlags:4}
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=5] run playsound minecraft:item.bucket.empty ambient @a
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=5] run setblock ^ ^ ^1 water
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=5] run kill @s
+
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=4] run replaceitem entity @a[tag=water_wbw_shoot,limit=1,sort=nearest] weapon.mainhand minecraft:carrot_on_a_stick{CustomModelData:5,display:{Name:"{\"text\":\"Holzeimer\",\"italic\":\"false\"}"},HideFlags:4}
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=4] run playsound minecraft:item.bucket.empty ambient @a
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=4] run setblock ^ ^ ^1 water
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=4] run kill @s
+
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=3] run replaceitem entity @a[tag=water_wbw_shoot,limit=1,sort=nearest] weapon.mainhand minecraft:carrot_on_a_stick{CustomModelData:5,display:{Name:"{\"text\":\"Holzeimer\",\"italic\":\"false\"}"},HideFlags:4}
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=3] run playsound minecraft:item.bucket.empty ambient @a
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=3] run setblock ^ ^ ^1 water
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=3] run kill @s
+
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=2] run replaceitem entity @a[tag=water_wbw_shoot,limit=1,sort=nearest] weapon.mainhand minecraft:carrot_on_a_stick{CustomModelData:5,display:{Name:"{\"text\":\"Holzeimer\",\"italic\":\"false\"}"},HideFlags:4}
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=2] run playsound minecraft:item.bucket.empty ambient @a
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=2] run setblock ^ ^ ^1 water
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=2] run kill @s
+
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=1] run replaceitem entity @a[tag=water_wbw_shoot,limit=1,sort=nearest] weapon.mainhand minecraft:carrot_on_a_stick{CustomModelData:5,display:{Name:"{\"text\":\"Holzeimer\",\"italic\":\"false\"}"},HideFlags:4}
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=1] run playsound minecraft:item.bucket.empty ambient @a
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=1] run setblock ^ ^ ^1 water
+execute as @e[tag=water_was_projektil] at @s unless block ^ ^ ^1 air unless block ^ ^ ^1 cauldron if block ^ ^ ^1 water[level=1] run kill @s
+
 
 #DrBlackRat
 #reset wbw
