@@ -58,3 +58,7 @@ scoreboard players set @a stamina 100
 scoreboard players set @a mana 10
 scoreboard players set @a temperatur 40
 scoreboard players set @a thrist 10
+
+#DrBlackError
+#autofisher-countdown
+scoreboard objectives add fishercountdown dummy
