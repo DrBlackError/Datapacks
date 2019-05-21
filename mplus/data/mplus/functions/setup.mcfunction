@@ -42,3 +42,7 @@ scoreboard objectives add savecloud dummy
 #?
 #tp_home_set
 scoreboard objectives add tp_home_click minecraft.used:minecraft.carrot_on_a_stick
+
+#DrBlackError
+#auto-frisher cooldown
+scoreboard objectives add autofishercountdown dummy
