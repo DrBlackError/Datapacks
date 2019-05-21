@@ -31,9 +31,9 @@ function moreenchants:weapons/diamond_sword
 function moreenchants:island
 
 #Commands to get All Books ingame for Enchantments
-execute as @a[tag=books] run give @p minecraft:enchanted_book{CustomModelData:6,ench:["glowattack"],display:{Name:"{\"text\":\"Buch der Leuchtenden Berührung\",\"color\":\"gold\"}"},HideFlags:63} 1
-execute as @a[tag=books] run give @p minecraft:enchanted_book{CustomModelData:5,ench:["poisonattack"],display:{Name:"{\"text\":\"Buch der Vergiftenden Berührung\",\"color\":\"green\"}"},HideFlags:63} 1
-execute as @a[tag=books] run give @p minecraft:enchanted_book{CustomModelData:2,ench:["slowfall"],display:{Name:"{\"text\":\"Buch des Langsamen Falls\",\"color\":\"aqua\"}"},HideFlags:63} 1
-execute as @a[tag=books] run give @p minecraft:enchanted_book{CustomModelData:1,ench:["fireres"],display:{Name:"{\"text\":\"Buch der Feuerresistenz\",\"color\":\"dark_red\"}"},HideFlags:63} 1
+execute as @a[tag=books] run give @s minecraft:enchanted_book{CustomModelData:6,ench:["glowattack"],display:{Name:"{\"text\":\"Buch der Leuchtenden Berührung\",\"color\":\"gold\"}"},HideFlags:63} 1
+execute as @a[tag=books] run give @s minecraft:enchanted_book{CustomModelData:5,ench:["poisonattack"],display:{Name:"{\"text\":\"Buch der Vergiftenden Berührung\",\"color\":\"green\"}"},HideFlags:63} 1
+execute as @a[tag=books] run give @s minecraft:enchanted_book{CustomModelData:2,ench:["slowfall"],display:{Name:"{\"text\":\"Buch des Langsamen Falls\",\"color\":\"aqua\"}"},HideFlags:63} 1
+execute as @a[tag=books] run give @s minecraft:enchanted_book{CustomModelData:1,ench:["fireres"],display:{Name:"{\"text\":\"Buch der Feuerresistenz\",\"color\":\"dark_red\"}"},HideFlags:63} 1
 execute as @a[tag=books] run tag @s remove books
 function moreenchants:enchantments
