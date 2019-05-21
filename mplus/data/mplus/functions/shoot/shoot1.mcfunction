@@ -17,11 +17,16 @@ execute if entity @a[tag=shoot1shoot] as @e[tag=shoot1objekt] at @s run tp @s ^ 
 execute as @e[tag=shoot1objekt] at @s run particle minecraft:flame ~ ~ ~ 0 0 0 0.05 20 force
 
 #schaden machen
-execute as @e[tag=shoot1objekt] at @s run effect give @e[distance=..2,tag=!shoot1objekt] instant_damage 1 1
-execute as @e[tag=shoot1objekt] at @s as @e[distance=..2,tag=!shoot1objekt] at @s run summon arrow ~ ~2.1 ~ {damage:0.0d,Fire:400s}
+execute as @e[tag=shoot1objekt] at @s run effect give @e[distance=..2,tag=!shoot1objekt,type=!item,type=!armor_stand,type=!area_effect_cloud] instant_damage 1 1
+execute as @e[tag=shoot1objekt] at @s as @e[distance=..2,tag=!shoot1objekt,type=!item,type=!armor_stand,type=!area_effect_cloud] at @s run summon arrow ~ ~2.2 ~ {damage:0.0d,Fire:400s,Tags:[fire_arrow]}
 
 #reset
 scoreboard players reset @a[scores={shootclick1=1..}] shootclick1
 tag @a[tag=shoot1-1] remove shoot1-1
 tag @a[tag=shoot1shoot] remove shoot1shoot
 execute as @e[tag=shoot1objekt] at @s unless block ~ ~ ~ air run kill @s
+execute as @e[tag=shoot1objekt] at @s if entity @e[distance=..2,tag=!shoot1objekt,type=!item,type=!armor_stand,type=!area_effect_cloud] run kill @s
+
+#kill arrow
+scoreboard players add @e[nbt={Tags:[fire_arrow]}] fire_arrow_timer 1
+execute as @e[nbt={Tags:[fire_arrow]}] if score @s fire_arrow_timer matches 10 run kill @s

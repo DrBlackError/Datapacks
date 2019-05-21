@@ -1,3 +1,4 @@
 scoreboard objectives add shootclick1 minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add shootclick2 minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add shootclick3 minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add fire_arrow_timer dummy

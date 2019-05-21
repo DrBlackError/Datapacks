@@ -17,7 +17,7 @@ execute if entity @a[tag=shoot2shoot] as @e[tag=shoot2objekt] at @s run tp @s ^ 
 execute as @e[tag=shoot2objekt] at @s run particle minecraft:dust 0 0 1 2 ~ ~ ~ 0 0 0 1 10 force
 
 #schaden machen
-execute as @e[tag=shoot2objekt] at @s as @e[distance=..2,tag=!shoot2objekt] at @e[distance=..2,tag=!shoot2objekt] run summon lightning_bolt ~ ~ ~
+execute as @e[tag=shoot2objekt] at @s as @e[distance=..2,tag=!shoot2objekt,limit=1] at @e[distance=..2,tag=!shoot2objekt,limit=1,type=!item,type=!armor_stand,type=!area_effect_cloud] run summon lightning_bolt ~ ~ ~
 execute as @e[tag=shoot2objekt] at @s unless block ~ ~ ~ air run summon lightning_bolt ~ ~ ~
 
 #reset
@@ -25,4 +25,4 @@ scoreboard players reset @a[scores={shootclick2=1..}] shootclick2
 tag @a[tag=shoot2-1] remove shoot2-1
 tag @a[tag=shoot2shoot] remove shoot2shoot
 execute as @e[tag=shoot2objekt] at @s unless block ~ ~ ~ air run kill @s
-execute as @e[tag=shoot2objekt] at @s if entity @e[distance=..2,tag=!shoot2objekt] run kill @s
+execute as @e[tag=shoot2objekt] at @s if entity @e[distance=..2,tag=!shoot2objekt,type=!item,type=!armor_stand,type=!area_effect_cloud] run kill @s
