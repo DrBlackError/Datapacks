@@ -92,5 +92,9 @@ function svplus:bossbar
 function svplus:staminaplus
 
 #DrBlackError
-#Auto-Fisher
+#auto-fisher
 function svplus:autofisher
+
+#DrBlackError
+#auto-miner
+function svplus:autominer

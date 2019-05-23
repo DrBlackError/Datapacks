@@ -62,3 +62,7 @@ scoreboard players set @a thrist 10
 #DrBlackError
 #autofisher-countdown
 scoreboard objectives add fishercountdown dummy
+
+#DrBlackError
+#autominer-countdown
+scoreboard objectives add minercountdown dummy

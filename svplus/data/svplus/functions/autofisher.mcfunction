@@ -1,5 +1,5 @@
 #DrBlackError with a lot help from IFloooI
-#Auto-fisher
+#auto-fisher
 execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:fishing_rod",Count:1b,tag:{display:{Name:'{"text":"Fischer"}'}}}},distance=..2] if block ~ ~ ~ water run replaceitem entity @s weapon.mainhand minecraft:fishing_rod 1
 execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:fishing_rod",Count:1b,tag:{display:{Name:'{"text":"Fischer"}'}}}},distance=..2] if block ~ ~ ~ water run tag @s add autofisher
 execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:fishing_rod",Count:1b,tag:{display:{Name:'{"text":"Fischer"}'}}}},distance=..2] unless block ~ ~ ~ water run tellraw @a[distance=..5] "Ohne Wasser kein Fischer!"
