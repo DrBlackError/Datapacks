@@ -66,3 +66,11 @@ scoreboard objectives add fishercountdown dummy
 #DrBlackError
 #autominer-countdown
 scoreboard objectives add minercountdown dummy
+
+#DrBlackError
+#energy-system
+scoreboard objectives add owner dummy
+
+#DrBlackError
+#uuid2.0
+scoreboard objectives add UUIDMost dummy

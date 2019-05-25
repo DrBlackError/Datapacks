@@ -15,7 +15,7 @@ execute as @e[type=armor_stand,tag=autofisher] at @s if entity @e[type=item,nbt=
 execute as @e[type=armor_stand,tag=autofisher] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:diamond_block",Count:1b}},distance=..2] if block ~ ~ ~ water run tag @s add autofisher-diamond
 execute as @e[type=armor_stand,tag=autofisher] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:diamond_block",Count:1b}},distance=..2] if block ~ ~ ~ water run tellraw @a[distance=..5] "Diamond-Upgrade enabled!"
 execute as @e[tag=autofisher,tag=autofisher-diamond,scores={fishercountdown=600..}] at @s run loot spawn ~ ~1 ~ fish minecraft:gameplay/fishing ~ ~1 ~
-execute as @e[tag=autofisher,scores={fishercountdown=600..}] run scoreboard players set @s fishercountdown 0
+execute as @e[tag=autofisher,tag=autofisher-diamond,scores={fishercountdown=600..}] run scoreboard players set @s fishercountdown 0
 execute at @e[type=armor_stand,tag=autofisher] as @e[type=item,nbt={Item:{id:"minecraft:diamond_block",Count:1b}},distance=..2] run kill @s
 
 #IFloooI
