@@ -72,9 +72,5 @@ scoreboard objectives add minercountdown dummy
 scoreboard objectives add owner dummy
 
 #DrBlackError
-#uuid2.0
-scoreboard objectives add UUIDMost dummy
-
-#DrBlackError
 #particletimer
 scoreboard objectives add particletimer dummy

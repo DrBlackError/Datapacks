@@ -26,8 +26,9 @@ execute as @e[tag=uuid_zero,tag=energy] at @s run tag @s remove uuid_zero
 execute as @a[tag=energycreater] at @s if entity @e[tag=uuid_rotate,distance=..5,limit=1] if score @s uuid = @e[tag=uuid_rotate,distance=..5,limit=1] uuid run tag @e[tag=uuid_rotate,distance=..5,limit=1] add test
 execute as @a[tag=energycreater] at @s if entity @e[tag=uuid_rotate,distance=..5,limit=1] if score @s uuid = @e[tag=uuid_rotate,distance=..5,limit=1] uuid run tag @e[tag=uuid_rotate,distance=..5,limit=1] remove uuid_rotate
 execute as @a[tag=energycreater] at @s if entity @e[tag=uuid_rotate,distance=..5,limit=1] if score @s uuid = @e[tag=uuid_rotate,distance=..5,limit=1] uuid run tag @s remove energycreater
-
-
+execute as @e[tag=uuid_rotate,limit=1,scores={uuid=95}] at @s if entity @p[distance=..5,limit=1] if score Max_Player uuid < @e[tag=uuid_rotate,distance=..5,limit=1] uuid run tag @p add energycreater
+execute as @e[tag=uuid_rotate,scores={uuid=100..}] at @s if entity @p[distance=..5,limit=1] if score Max_Player uuid < @e[tag=uuid_rotate,distance=..5,limit=1] uuid run scoreboard players set @s uuid 0
+tag @a[tag=energycreater] remove energycreater
 #DrBlackError
 #particle effects
 #lol

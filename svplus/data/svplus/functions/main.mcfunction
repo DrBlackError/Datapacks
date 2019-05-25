@@ -102,7 +102,3 @@ function svplus:autominer
 #DrBlackError
 #energy-system
 function svplus:energy
-
-#DrBlackError
-#uuid2.0
-function svplus:uuid2.0
