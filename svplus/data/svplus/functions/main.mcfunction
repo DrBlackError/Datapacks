@@ -57,7 +57,7 @@ function svplus:heads
 
 #?
 #?
-function svplus:glass
+#function svplus:glass moved to teamplus
 
 #IFloooI
 #"Frieren"-System
