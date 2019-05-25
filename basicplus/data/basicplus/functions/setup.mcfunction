@@ -59,3 +59,6 @@ scoreboard objectives add afk_posX dummy
 scoreboard objectives add afk_posY dummy
 scoreboard objectives add afk_posZ dummy
 scoreboard objectives add afk_finish dummy
+
+#Info System
+scoreboard objectives add info trigger

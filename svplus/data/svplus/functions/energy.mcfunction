@@ -31,8 +31,6 @@ execute as @e[tag=uuid_rotate,scores={uuid=100..}] at @s if entity @p[distance=.
 tag @a[tag=energycreater] remove energycreater
 #DrBlackError
 #particle effects
-#lol
-
 execute as @e[type=minecraft:armor_stand,tag=energy,scores={particletimer=20}] at @s if entity @p[distance=..5] anchored eyes run particle minecraft:dust 255 0 0 1 ~ ~3 ~
 execute as @e[type=minecraft:armor_stand,tag=energy,scores={particletimer=20}] at @s if entity @p[distance=..5] anchored eyes run particle minecraft:dust 255 0 0 1 ~ ~2.9 ~
 execute as @e[type=minecraft:armor_stand,tag=energy,scores={particletimer=20}] at @s if entity @p[distance=..5] anchored eyes run particle minecraft:dust 255 0 0 1 ~ ~2.8 ~
