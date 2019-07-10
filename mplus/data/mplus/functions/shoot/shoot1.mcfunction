@@ -2,6 +2,9 @@
 #feuer stab
 
 #testen ob mann es machen kann und mana entfernen
+execute as @a[tag=!z1,scores={shootclick1=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:2}}}] at @s run tellraw @p ["",{"selector":"@s"},{"text":": Error: Tag 'z1' nicht gefunden","color":"gray","clickEvent":{"action":"run_command","value":"/tag @s add z1"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Debug: /tag @s add z1 [klicke um auszuführen]"}]}},"bold":false}]
+execute as @a[tag=!s1,scores={shootclick1=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:2}}}] at @s run tellraw @p ["",{"selector":"@s"},{"text":": Error: Tag 's1' nicht gefunden","color":"gray","clickEvent":{"action":"run_command","value":"/tag @s add s1"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Debug: /tag @s add s1 [klicke um auszuführen]"}]}},"bold":false}]
+
 execute as @a[tag=z1,tag=s1,scores={shootclick1=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:2}}}] run tag @s add shoot1-1
 execute as @a[tag=shoot1-1,scores={mana=5..}] at @s run tag @s add shoot1shoot
 execute as @a[tag=shoot1shoot] at @s run scoreboard players remove @s mana 5

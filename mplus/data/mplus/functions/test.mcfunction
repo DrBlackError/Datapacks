@@ -19,7 +19,7 @@ give @p minecraft:carrot_on_a_stick{CustomModelData:4} 1
 #give @p minecraft:carrot_on_a_stick{CustomModelData:6} 1  Skyblockplus
 #give @p minecraft:carrot_on_a_stick{CustomModelData:7} 1  Skyblockplus
 #give @p minecraft:carrot_on_a_stick{CustomModelData:8} 1  Skyblockplus
-#give @p minecraft:carrot_on_a_stick{CustomModelData:9} 1
+give @p minecraft:carrot_on_a_stick{CustomModelData:9} 1
 #give @p minecraft:carrot_on_a_stick{CustomModelData:10} 1
 #give @p minecraft:carrot_on_a_stick{CustomModelData:11} 1
 #give @p minecraft:carrot_on_a_stick{CustomModelData:12} 1
