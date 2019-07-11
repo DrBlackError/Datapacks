@@ -1,9 +1,15 @@
 #DrBlackError
-#energy-system
+#energy
+
+#particletimer
+execute as @e[tag=energy,limit=1] run scoreboard players add @e[tag=energy] particletimer 1
+execute as @e[tag=energy,scores={particletimer=21..}] run scoreboard players set @e[tag=energy] particletimer 0
+
+#transporter
 execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:redstone_block",Count:1b,tag:{display:{Name:'{"text":"Energy Crystal"}'}}}},distance=..2] run replaceitem entity @s armor.head minecraft:redstone_block 1
 execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:redstone_block",Count:1b,tag:{display:{Name:'{"text":"Energy Crystal"}'}}}},distance=..2] run tag @s add energy
 execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:redstone_block",Count:1b,tag:{display:{Name:'{"text":"Energy Crystal"}'}}}},distance=..2] run tellraw @a[distance=..5] "Nice Energy"
-execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:redstone_block",Count:1b,tag:{display:{Name:'{"text":"Energy Crystal"}'}}}},distance=..2] run tag @p add energytransporter
+execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:redstone_block",Count:1b,tag:{display:{Name:'{"text":"Energy Crystal"}'}}}},distance=..2] run tag @p add energy
 #execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:redstone_block",Count:1b,tag:{display:{Name:'{"text":"Energy Crystal"}'}}}},distance=..2] run give @p[distance=..5] redstone_block{"display":{"Name":"{\"text\":\"Energy Crystal\"}"}} 1
 execute at @e[type=armor_stand] as @e[type=item,nbt={Item:{tag:{display:{Name:'{"text":"Energy Crystal"}'}}}},distance=..2] run kill @s
 
@@ -18,18 +24,19 @@ execute as @e[type=armor_stand,tag=energy,tag=!tiny] run tag @s add tiny
 
 #DrBlackError by DrBlackRat
 #set uuid
-execute as @a[tag=energytransporter] at @s run tag @e[tag=!test,tag=energy,tag=!uuid_zero,sort=nearest,limit=1] add uuid_zero
-execute as @a[tag=energytransporter] at @s run tag @e[tag=!test,tag=energy,tag=!uuid_rotate,sort=nearest,limit=1] add uuid_rotate
-execute as @a[tag=energytransporter] at @s run tag @e[tag=!test,tag=energy,tag=uuid_rotate,sort=nearest,limit=1] add test
-execute as @a[tag=energytransporter] at @s run scoreboard players set @e[tag=uuid_zero,distance=..5] uuid 0
+execute as @a[tag=energy] at @s run tag @e[tag=!test,tag=energy,tag=!uuid_zero,sort=nearest,limit=1] add uuid_zero
+execute as @a[tag=energy] at @s run tag @e[tag=!test,tag=energy,tag=!uuid_rotate,sort=nearest,limit=1] add uuid_rotate
+execute as @a[tag=energy] at @s run tag @e[tag=!test,tag=energy,tag=uuid_rotate,sort=nearest,limit=1] add test
+execute as @a[tag=energy] at @s run scoreboard players set @e[tag=uuid_zero,distance=..5] uuid 0
 execute as @e[tag=uuid_zero,tag=energy] at @s run tag @s remove uuid_zero
-execute as @a[tag=energytransporter] at @s if entity @e[tag=uuid_rotate,distance=..5,limit=1] if score @s uuid = @e[tag=uuid_rotate,distance=..5,limit=1] uuid run tag @e[tag=uuid_rotate,distance=..5,limit=1] add test
-execute as @a[tag=energytransporter] at @s if entity @e[tag=uuid_rotate,distance=..5,limit=1] if score @s uuid = @e[tag=uuid_rotate,distance=..5,limit=1] uuid run tag @e[tag=uuid_rotate,distance=..5,limit=1] remove uuid_rotate
-execute as @a[tag=energytransporter] at @s if entity @e[tag=uuid_rotate,distance=..5,limit=1] if score @s uuid = @e[tag=uuid_rotate,distance=..5,limit=1] uuid run tag @s remove energytransporter
-execute as @e[tag=uuid_rotate,limit=1,scores={uuid=95}] at @s if entity @p[distance=..5,limit=1] if score Max_Player uuid < @e[tag=uuid_rotate,distance=..5,limit=1] uuid run tag @p add energytransporter
+execute as @a[tag=energy] at @s if entity @e[tag=uuid_rotate,distance=..5,limit=1] if score @s uuid = @e[tag=uuid_rotate,distance=..5,limit=1] uuid run tag @e[tag=uuid_rotate,distance=..5,limit=1] add test
+execute as @a[tag=energy] at @s if entity @e[tag=uuid_rotate,distance=..5,limit=1] if score @s uuid = @e[tag=uuid_rotate,distance=..5,limit=1] uuid run tag @e[tag=uuid_rotate,distance=..5,limit=1] remove uuid_rotate
+execute as @a[tag=energy] at @s if entity @e[tag=uuid_rotate,distance=..5,limit=1] if score @s uuid = @e[tag=uuid_rotate,distance=..5,limit=1] uuid run tag @s remove energy
+execute as @e[tag=uuid_rotate,limit=1,scores={uuid=95}] at @s if entity @p[distance=..5,limit=1] if score Max_Player uuid < @e[tag=uuid_rotate,distance=..5,limit=1] uuid run tag @p add energy
 execute as @e[tag=uuid_rotate,scores={uuid=100..}] at @s if entity @p[distance=..5,limit=1] if score Max_Player uuid < @e[tag=uuid_rotate,distance=..5,limit=1] uuid run scoreboard players set @s uuid 0
-#execute as @e[tag=energy] at @s if entity @a[tag=energytransporter,distance=..5] run tp @s ~ ~2 ~
-tag @a[tag=energytransporter] remove energytransporter
+#execute as @e[tag=energy] at @s if entity @a[tag=energy,distance=..5] run tp @s ~ ~2 ~
+tag @a[tag=energy] remove energy
+
 #DrBlackError
 #particle effects
 execute as @e[type=minecraft:armor_stand,tag=energy,scores={particletimer=20}] at @s if entity @p[distance=..5] anchored eyes run particle minecraft:dust 255 0 0 1 ~ ~3 ~
@@ -52,5 +59,14 @@ execute as @a at @e[type=minecraft:armor_stand,tag=energy,limit=5,sort=nearest,s
 execute as @a at @e[type=minecraft:armor_stand,tag=energy,limit=5,sort=nearest,scores={particletimer=20}] at @e[tag=energy] if entity @a[nbt={SelectedItem:{id:"minecraft:redstone_block"}},distance=..7] run particle minecraft:dust 255 0 0 1 ~-4 ~2 ~4
 execute as @a at @e[type=minecraft:armor_stand,tag=energy,limit=5,sort=nearest,scores={particletimer=20}] at @e[tag=energy] if entity @a[nbt={SelectedItem:{id:"minecraft:redstone_block"}},distance=..7] run particle minecraft:dust 255 0 0 1 ~4 ~2 ~-4
 
-execute as @e[tag=energy,limit=1] run scoreboard players add @e[tag=energy] particletimer 1
-execute as @e[tag=energy,scores={particletimer=21..}] run scoreboard players set @e[tag=energy] particletimer 0
+
+#solar
+execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:daylight_detector",Count:1b,}},distance=..2] run replaceitem entity @s armor.head minecraft:daylight_detector 1
+execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:daylight_detector",Count:1b,}},distance=..2] run tag @s add energy
+execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:daylight_detector",Count:1b,}},distance=..2] run tag @s add solar
+execute as @e[tag=solar, tag=!owned] if score @p uuid = @s uuid run scoreboard players add @p energy 1
+execute as @e[tag=solar, tag=!owned] if score @p uuid = @s uuid run tag @s add owned
+execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:daylight_detector",Count:1b,}},distance=..2] run tellraw @a[distance=..5] "Nice Energy"
+execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:daylight_detector",Count:1b,}},distance=..2] run tag @p add energy
+#execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:redstone_block",Count:1b,tag:{display:{Name:'{"text":"Energy Crystal"}'}}}},distance=..2] run give @p[distance=..5] redstone_block{"display":{"Name":"{\"text\":\"Energy Crystal\"}"}} 1
+execute at @e[type=armor_stand] as @e[type=item,nbt={Item:{id:"minecraft:daylight_detector",Count:1b,}},distance=..2] run kill @s
