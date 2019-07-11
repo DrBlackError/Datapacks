@@ -15,3 +15,5 @@ scoreboard players enable @a 1
 scoreboard players enable @a 2
 scoreboard players enable @a 3
 function basicplus:afksystem
+
+function basicplus:uuid

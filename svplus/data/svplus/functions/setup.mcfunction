@@ -10,7 +10,6 @@ tellraw @a[team=Admin] {"text":"Svplus erfolgreich geladen!","color":"yellow"}
 scoreboard objectives add mana dummy
 scoreboard objectives add manatime dummy
 scoreboard objectives add gameplayer-d dummy
-scoreboard objectives add uuid dummy
 
 #Flo
 #Cold

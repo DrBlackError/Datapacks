@@ -62,3 +62,6 @@ scoreboard objectives add afk_finish dummy
 
 #Info System
 scoreboard objectives add info trigger
+
+#uuid System
+scoreboard objectives add uuid dummy
