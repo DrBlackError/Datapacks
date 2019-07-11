@@ -26,9 +26,14 @@ execute as @e[type=item,tag=summon_chunkloader1,tag=!setup] at @s run summon arm
 execute as @e[type=item,tag=summon_chunkloader1,tag=!setup] at @s run tag @s add setup
 execute as @e[type=armor_stand,name=chunkloader,tag=!head] run replaceitem entity @s armor.head minecraft:purpur_block 1
 execute as @e[type=armor_stand,name=chunkloader,tag=!head] run tag @s add head
-execute as @e[type=armor_stand,name=chunkloader,tag=!loaded] at @s run forceload add ~ ~ ~ ~
+execute as @e[type=armor_stand,name=chunkloader,tag=!loaded] at @s run forceload add ~- ~ ~ ~
 execute as @e[type=armor_stand,name=chunkloader,tag=!loaded] at @s run tag @s add loaded
 execute as @e[type=armor_stand,name=chunkloader] at @s run particle minecraft:enchant ~ ~ ~ 0.5 0.5 0.5 0.0000000001 1 force @a
 execute as @e[type=armor_stand,name=chunkloader] at @s run particle minecraft:portal ~ ~ ~ 0.5 0.5 0.5 0.0000000001 1 force @a
 execute as @e[type=armor_stand,name=chunkloader] at @s unless block ~ ~ ~ minecraft:enchanting_table run forceload remove ~ ~ ~ ~
 execute as @e[type=armor_stand,name=chunkloader] at @s unless block ~ ~ ~ minecraft:enchanting_table run kill @s
+execute as @e[type=armor_stand,name=chunkloader] at @s unless entity @e[type=slime,distance=..2] run summon minecraft:slime ~ ~-0.75 ~ {OnGround:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Glowing:0b,CustomNameVisible:0b,PersistenceRequired:1b,NoAI:1b,CanPickUpLoot:0b,Size:1,Tags:["chunkloadslime"]}
+execute as @e[tag=chunkloadslime,tag=!invis] run effect give @s minecraft:invisibility 1000000 1 true
+execute as @e[type=minecraft:slime,tag=chunkloadslime,tag=!invis] run tag @s add invis
+#execute as @e[type=armor_stand,name=chunkloader]
+#1231231
