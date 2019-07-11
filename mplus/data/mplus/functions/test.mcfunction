@@ -48,14 +48,14 @@ give @p minecraft:potion{HideFlags:33,CustomPotionEffects:[{Id:27b,Amplifier:4b,
 
 #DrBlackError
 #Text to tp to Team-Spawns [deprecated]
-tellraw @s "----------"
-tellraw @s ""
-tellraw @s {"text":"Team Rot","color":"red","clickEvent":{"action":"run_command","value":"/execute as @s in overworld run tp @s -389 64 -380"}}
-tellraw @s {"text":"Team Gelb","color":"yellow","clickEvent":{"action":"run_command","value":"/execute as @s in overworld run tp @s -756 82 1027"}}
-tellraw @s {"text":"Team Grün","color":"green","clickEvent":{"action":"run_command","value":"/execute as @s in overworld run tp @s -60 73 84"}}
-tellraw @s {"text":"Team Blau","color":"blue","clickEvent":{"action":"run_command","value":"/execute as @s in overworld run tp @s 61 65 536"}}
-tellraw @s {"text":"Team Admin","color":"white","clickEvent":{"action":"run_command","value":"/execute as @s in the_nether run tp @s -73 134 -44"}}
-tellraw @s ""
+#tellraw @s "----------"
+#tellraw @s ""
+#tellraw @s {"text":"Team Rot","color":"red","clickEvent":{"action":"run_command","value":"/execute as @s in overworld run tp @s -389 64 -380"}}
+#tellraw @s {"text":"Team Gelb","color":"yellow","clickEvent":{"action":"run_command","value":"/execute as @s in overworld run tp @s -756 82 1027"}}
+#tellraw @s {"text":"Team Grün","color":"green","clickEvent":{"action":"run_command","value":"/execute as @s in overworld run tp @s -60 73 84"}}
+#tellraw @s {"text":"Team Blau","color":"blue","clickEvent":{"action":"run_command","value":"/execute as @s in overworld run tp @s 61 65 536"}}
+#tellraw @s {"text":"Team Admin","color":"white","clickEvent":{"action":"run_command","value":"/execute as @s in the_nether run tp @s -73 134 -44"}}
+#tellraw @s ""
 #tellraw @s ""
 #tellraw @s ""
 #tellraw @s ""

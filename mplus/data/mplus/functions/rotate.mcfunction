@@ -49,6 +49,5 @@ execute as @a[tag=w1,tag=Got1] run tag @s remove Got1
 scoreboard players set @a[scores={sneaktime=1..}] sneaktime 0
 
 
-
 #Vorlage
 #execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:5}}]}] run say hi
