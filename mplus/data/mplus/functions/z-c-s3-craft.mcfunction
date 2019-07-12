@@ -16,10 +16,9 @@ execute as @e[tag=et1,tag=zc4-s3-n] at @s run kill @e[type=item_frame,distance=.
 execute as @e[tag=et1,tag=zc4-s3-n] at @s run summon minecraft:item_frame ~ ~ ~-1 {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s3-n] at @s run summon minecraft:item_frame ~ ~ ~-2 {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s3-n] at @s run kill @e[type=item,distance=2..4]
-execute as @e[tag=et1,tag=zc4-s3-n] at @s run summon item ~ ~ ~-1.5 {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Freze-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Freze-Stab können sich die Leute die du triefst für 5 Sekunden nicht mehr Bewegen"]},Unbreakable:1b,Damage:4}}}
+execute as @e[tag=et1,tag=zc4-s3-n] at @s run summon item ~ ~ ~-1.5 {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Freze-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Freze-Stab können sich die Leute die du triefst für 5 Sekunden nicht mehr Bewegen"]},CustomModelData:4}}}
 execute as @e[tag=et1,tag=zc4-s3-n] at @s run tag @p add s3
 execute as @e[tag=et1,tag=zc4-s3-n] at @s run setblock ~ ~-1 ~-3 cauldron
-execute as @e[tag=et1,tag=zc4-s3-w] at @s run tellraw @a ["",{"selector":"@p"},{"text":" hat den Freze-Stab hergestellt!!!! ","color":"dark_purple"}]
 
 #reset
 tag @e[tag=et1,tag=zc1-s3-n] remove zc1-s3-n
@@ -42,10 +41,9 @@ execute as @e[tag=et1,tag=zc4-s3-s] at @s run kill @e[type=item_frame,distance=.
 execute as @e[tag=et1,tag=zc4-s3-s] at @s run summon minecraft:item_frame ~ ~ ~1 {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s3-s] at @s run summon minecraft:item_frame ~ ~ ~2 {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s3-s] at @s run kill @e[type=item,distance=2..4]
-execute as @e[tag=et1,tag=zc4-s3-s] at @s run summon item ~ ~ ~1.5 {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Freze-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Freze-Stab können sich die Leute die du triefst für 5 Sekunden nicht mehr Bewegen"]},Unbreakable:1b,Damage:4}}}
+execute as @e[tag=et1,tag=zc4-s3-s] at @s run summon item ~ ~ ~1.5 {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Freze-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Freze-Stab können sich die Leute die du triefst für 5 Sekunden nicht mehr Bewegen"]},CustomModelData:4}}}
 execute as @e[tag=et1,tag=zc4-s3-s] at @s run tag @p add s3
 execute as @e[tag=et1,tag=zc4-s3-s] at @s run setblock ~ ~-1 ~3 cauldron
-execute as @e[tag=et1,tag=zc4-s3-s] at @s run tellraw @a ["",{"selector":"@p"},{"text":" hat den Freze-Stab hergestellt!!!! ","color":"dark_purple"}]
 
 #reset
 tag @e[tag=et1,tag=zc1-s3-s] remove zc1-s3-s
@@ -68,10 +66,9 @@ execute as @e[tag=et1,tag=zc4-s3-w] at @s run kill @e[type=item_frame,distance=.
 execute as @e[tag=et1,tag=zc4-s3-w] at @s run summon minecraft:item_frame ~-1 ~ ~ {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s3-w] at @s run summon minecraft:item_frame ~-2 ~ ~ {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s3-w] at @s run kill @e[type=item,distance=..4]
-execute as @e[tag=et1,tag=zc4-s3-w] at @s run summon item ~-1.5 ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Freze-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Freze-Stab können sich die Leute die du triefst für 5 Sekunden nicht mehr Bewegen"]},Unbreakable:1b,Damage:4}}}
+execute as @e[tag=et1,tag=zc4-s3-w] at @s run summon item ~-1.5 ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Freze-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Freze-Stab können sich die Leute die du triefst für 5 Sekunden nicht mehr Bewegen"]},CustomModelData:4}}}
 execute as @e[tag=et1,tag=zc4-s3-w] at @s run tag @p add s3
 execute as @e[tag=et1,tag=zc4-s3-w] at @s run setblock ~-3 ~-1 ~ cauldron
-execute as @e[tag=et1,tag=zc4-s3-w] at @s run tellraw @a ["",{"selector":"@p"},{"text":" hat den Freze-Stab hergestellt!!!! ","color":"dark_purple"}]
 
 #reset
 tag @e[tag=et1,tag=zc1-s3-w] remove zc1-s3-w
@@ -94,10 +91,10 @@ execute as @e[tag=et1,tag=zc4-s3-e] at @s run kill @e[type=item_frame,distance=.
 execute as @e[tag=et1,tag=zc4-s3-e] at @s run summon minecraft:item_frame ~1 ~ ~ {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s3-e] at @s run summon minecraft:item_frame ~2 ~ ~ {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s3-e] at @s run kill @e[type=item,distance=2..4]
-execute as @e[tag=et1,tag=zc4-s3-e] at @s run summon item ~1.5 ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Freze-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Freze-Stab können sich die Leute die du triefst für 5 Sekunden nicht mehr Bewegen"]},Unbreakable:1b,Damage:4}}}
+execute as @e[tag=et1,tag=zc4-s3-e] at @s run summon item ~1.5 ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Freze-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Freze-Stab können sich die Leute die du triefst für 5 Sekunden nicht mehr Bewegen"]},CustomModelData:4}}}
 execute as @e[tag=et1,tag=zc4-s3-e] at @s run tag @p add s3
 execute as @e[tag=et1,tag=zc4-s3-e] at @s run setblock ~3 ~-1 ~ cauldron
-execute as @e[tag=et1,tag=zc4-s3-e] at @s run tellraw @a ["",{"selector":"@p"},{"text":" hat den Freze-Stab hergestellt!!!! ","color":"dark_purple"}]
+
 
 #reset
 tag @e[tag=et1,tag=zc1-s3-e] remove zc1-s3-e

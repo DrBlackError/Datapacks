@@ -16,10 +16,9 @@ execute as @e[tag=et1,tag=zc4-s1-n] at @s run kill @e[type=item_frame,distance=.
 execute as @e[tag=et1,tag=zc4-s1-n] at @s run summon minecraft:item_frame ~ ~ ~-1 {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s1-n] at @s run summon minecraft:item_frame ~ ~ ~-2 {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s1-n] at @s run kill @e[type=item,distance=2..4]
-execute as @e[tag=et1,tag=zc4-s1-n] at @s run summon item ~ ~ ~-1.5 {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Feuer-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Feuer-Stab kannst du Feuer scheißen und Gegner in brand setzen"]},Unbreakable:1b,Damage:2}}}
+execute as @e[tag=et1,tag=zc4-s1-n] at @s run summon item ~ ~ ~-1.5 {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Feuer-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Feuer-Stab kannst du Feuer scheißen und Gegner in brand setzen"]},CustomModelData:2}}}
 execute as @e[tag=et1,tag=zc4-s1-n] at @s run tag @p add s1
 execute as @e[tag=et1,tag=zc4-s1-n] at @s run setblock ~ ~-1 ~-3 cauldron
-execute as @e[tag=et1,tag=zc4-s1-n] at @s run tellraw @a ["",{"selector":"@p"},{"text":" hat den Feuer-Stab hergestellt!!!! ","color":"dark_purple"}]
 
 #reset
 tag @e[tag=et1,tag=zc1-s1-n] remove zc1-s1-n
@@ -42,10 +41,9 @@ execute as @e[tag=et1,tag=zc4-s1-s] at @s run kill @e[type=item_frame,distance=.
 execute as @e[tag=et1,tag=zc4-s1-s] at @s run summon minecraft:item_frame ~ ~ ~1 {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s1-s] at @s run summon minecraft:item_frame ~ ~ ~2 {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s1-s] at @s run kill @e[type=item,distance=2..4]
-execute as @e[tag=et1,tag=zc4-s1-s] at @s run summon item ~ ~ ~1.5 {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Feuer-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Feuer-Stab kannst du Feuer scheißen und Gegner in brand setzen"]},Unbreakable:1b,Damage:2}}}
+execute as @e[tag=et1,tag=zc4-s1-s] at @s run summon item ~ ~ ~1.5 {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Feuer-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Feuer-Stab kannst du Feuer scheißen und Gegner in brand setzen"]},CustomModelData:2}}}
 execute as @e[tag=et1,tag=zc4-s1-s] at @s run tag @p add s1
 execute as @e[tag=et1,tag=zc4-s1-s] at @s run setblock ~ ~-1 ~3 cauldron
-execute as @e[tag=et1,tag=zc4-s1-s] at @s run tellraw @a ["",{"selector":"@p"},{"text":" hat den Feuer-Stab hergestellt!!!! ","color":"dark_purple"}]
 
 #reset
 tag @e[tag=et1,tag=zc1-s1-s] remove zc1-s1-s
@@ -68,10 +66,9 @@ execute as @e[tag=et1,tag=zc4-s1-w] at @s run kill @e[type=item_frame,distance=.
 execute as @e[tag=et1,tag=zc4-s1-w] at @s run summon minecraft:item_frame ~-1 ~ ~ {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s1-w] at @s run summon minecraft:item_frame ~-2 ~ ~ {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s1-w] at @s run kill @e[type=item,distance=..4]
-execute as @e[tag=et1,tag=zc4-s1-w] at @s run summon item ~-1.5 ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Feuer-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Feuer-Stab kannst du Feuer scheißen und Gegner in brand setzen"]},Unbreakable:1b,Damage:2}}}
+execute as @e[tag=et1,tag=zc4-s1-w] at @s run summon item ~-1.5 ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Feuer-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Feuer-Stab kannst du Feuer scheißen und Gegner in brand setzen"]},CustomModelData:2}}}
 execute as @e[tag=et1,tag=zc4-s1-w] at @s run tag @p add s1
 execute as @e[tag=et1,tag=zc4-s1-w] at @s run setblock ~-3 ~-1 ~ cauldron
-execute as @e[tag=et1,tag=zc4-s1-w] at @s run tellraw @a ["",{"selector":"@p"},{"text":" hat den Feuer-Stab hergestellt!!!! ","color":"dark_purple"}]
 
 #reset
 tag @e[tag=et1,tag=zc1-s1-w] remove zc1-s1-w
@@ -94,10 +91,9 @@ execute as @e[tag=et1,tag=zc4-s1-e] at @s run kill @e[type=item_frame,distance=.
 execute as @e[tag=et1,tag=zc4-s1-e] at @s run summon minecraft:item_frame ~1 ~ ~ {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s1-e] at @s run summon minecraft:item_frame ~2 ~ ~ {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s1-e] at @s run kill @e[type=item,distance=2..4]
-execute as @e[tag=et1,tag=zc4-s1-e] at @s run summon item ~1.5 ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Feuer-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Feuer-Stab kannst du Feuer scheißen und Gegner in brand setzen"]},Unbreakable:1b,Damage:2}}}
+execute as @e[tag=et1,tag=zc4-s1-e] at @s run summon item ~1.5 ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Feuer-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Feuer-Stab kannst du Feuer scheißen und Gegner in brand setzen"]},CustomModelData:2}}}
 execute as @e[tag=et1,tag=zc4-s1-e] at @s run tag @p add s1
 execute as @e[tag=et1,tag=zc4-s1-e] at @s run setblock ~3 ~-1 ~ cauldron
-execute as @e[tag=et1,tag=zc4-s1-e] at @s run tellraw @a ["",{"selector":"@p"},{"text":" hat den Feuer-Stab hergestellt!!!! ","color":"dark_purple"}]
 
 #reset
 tag @e[tag=et1,tag=zc1-s1-e] remove zc1-s1-e

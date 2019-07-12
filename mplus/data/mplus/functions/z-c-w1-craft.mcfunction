@@ -1,5 +1,5 @@
 #DrBlackRat
-#herstellung des tp-stabes
+#herstellung des tp-stabes.
 #mplus/main
 
 #norden
@@ -32,7 +32,8 @@ execute as @e[tag=et1,tag=zc4-w1-n] at @s run kill @e[type=item_frame,distance=.
 execute as @e[tag=et1,tag=zc4-w1-n] at @s run summon minecraft:item_frame ~ ~ ~-1 {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-w1-n] at @s run summon minecraft:item_frame ~ ~ ~-2 {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-w1-n] at @s run kill @e[type=item,distance=2..4]
-execute as @e[tag=et1,tag=zc4-w1-n] at @s run summon item ~ ~ ~-1.5 {Item:{id:"minecraft:written_book",Count:1b,tag:{Kapitel:1,display:{Name:"{\"text\":\"Kapitel I: Die Magie & Du\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"},title:"",author:"DrBlackError",pages:["{\"text\":\"Wenn du das lesen kannst ist irgend was schief gelaufen\",\"color\":\"black\"}"]}}}
+execute as @e[tag=et1,tag=zc4-w1-n] at @s run summon item ~ ~ ~-1.5 {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"TP-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Tp-Stab kannst du dich nach Hause Teleportieren"]},CustomModelData:1}}}
+#{Item:{id:"minecraft:written_book",Count:1b,tag:{Kapitel:1,display:{Name:"{\"text\":\"Kapitel I: Die Magie & Du\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"},title:"",author:"DrBlackError",pages:["{\"text\":\"Wenn du das lesen kannst ist irgend was schief gelaufen\",\"color\":\"black\"}"]}}}
 execute as @e[tag=et1,tag=zc4-w1-n] at @s run tag @p add w1
 execute as @e[tag=et1,tag=zc4-w1-n] at @s run setblock ~ ~-1 ~-3 cauldron
 
@@ -73,7 +74,8 @@ execute as @e[tag=et1,tag=zc4-w1-s] at @s run kill @e[type=item_frame,distance=.
 execute as @e[tag=et1,tag=zc4-w1-s] at @s run summon minecraft:item_frame ~ ~ ~1 {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-w1-s] at @s run summon minecraft:item_frame ~ ~ ~2 {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-w1-s] at @s run kill @e[type=item,distance=2..4]
-execute as @e[tag=et1,tag=zc4-w1-s] at @s run summon item ~ ~ ~1.5 {Item:{id:"minecraft:written_book",Count:1b,tag:{Kapitel:1,display:{Name:"{\"text\":\"Kapitel I: Die Magie & Du\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"},title:"",author:"DrBlackError",pages:["{\"text\":\"Wenn du das lesen kannst ist irgend was schief gelaufen\",\"color\":\"black\"}"]}}}
+execute as @e[tag=et1,tag=zc4-w1-s] at @s run summon item ~ ~ ~1.5 {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"TP-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Tp-Stab kannst du dich nach Hause Teleportieren"]},CustomModelData:1}}}
+#{Item:{id:"minecraft:written_book",Count:1b,tag:{Kapitel:1,display:{Name:"{\"text\":\"Kapitel I: Die Magie & Du\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"},title:"",author:"DrBlackError",pages:["{\"text\":\"Wenn du das lesen kannst ist irgend was schief gelaufen\",\"color\":\"black\"}"]}}}
 execute as @e[tag=et1,tag=zc4-w1-s] at @s run tag @p add w1
 execute as @e[tag=et1,tag=zc4-w1-s] at @s run setblock ~ ~-1 ~3 cauldron
 
@@ -114,7 +116,8 @@ execute as @e[tag=et1,tag=zc4-w1-w] at @s run kill @e[type=item_frame,distance=.
 execute as @e[tag=et1,tag=zc4-w1-w] at @s run summon minecraft:item_frame ~-1 ~ ~ {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-w1-w] at @s run summon minecraft:item_frame ~-2 ~ ~ {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-w1-w] at @s run kill @e[type=item,distance=..4]
-execute as @e[tag=et1,tag=zc4-w1-w] at @s run summon item ~-1.5 ~ ~ {Item:{id:"minecraft:written_book",Count:1b,tag:{Kapitel:1,display:{Name:"{\"text\":\"Kapitel I: Die Magie & Du\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"},title:"",author:"DrBlackError",pages:["{\"text\":\"Wenn du das lesen kannst ist irgend was schief gelaufen\",\"color\":\"black\"}"]}}}
+execute as @e[tag=et1,tag=zc4-w1-w] at @s run summon item ~-1.5 ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"TP-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Tp-Stab kannst du dich nach Hause Teleportieren"]},CustomModelData:1}}}
+#{Item:{id:"minecraft:written_book",Count:1b,tag:{Kapitel:1,display:{Name:"{\"text\":\"Kapitel I: Die Magie & Du\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"},title:"",author:"DrBlackError",pages:["{\"text\":\"Wenn du das lesen kannst ist irgend was schief gelaufen\",\"color\":\"black\"}"]}}}
 execute as @e[tag=et1,tag=zc4-w1-w] at @s run tag @p add w1
 execute as @e[tag=et1,tag=zc4-w1-w] at @s run setblock ~-3 ~-1 ~ cauldron
 
@@ -155,7 +158,8 @@ execute as @e[tag=et1,tag=zc4-w1-e] at @s run kill @e[type=item_frame,distance=.
 execute as @e[tag=et1,tag=zc4-w1-e] at @s run summon minecraft:item_frame ~1 ~ ~ {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-w1-e] at @s run summon minecraft:item_frame ~2 ~ ~ {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-w1-e] at @s run kill @e[type=item,distance=2..4]
-execute as @e[tag=et1,tag=zc4-w1-e] at @s run summon item ~1.5 ~ ~ {Item:{id:"minecraft:written_book",Count:1b,tag:{Kapitel:1,display:{Name:"{\"text\":\"Kapitel I: Die Magie & Du\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"},title:"",author:"DrBlackError",pages:["{\"text\":\"Wenn du das lesen kannst ist irgend was schief gelaufen\",\"color\":\"black\"}"]}}}
+execute as @e[tag=et1,tag=zc4-w1-e] at @s run summon item ~1.5 ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"TP-Stab\",\"color\":\"dark_purple\"}",Lore:["Mit dem Tp-Stab kannst du dich nach Hause Teleportieren"]},CustomModelData:1}}}
+#{Item:{id:"minecraft:written_book",Count:1b,tag:{Kapitel:1,display:{Name:"{\"text\":\"Kapitel I: Die Magie & Du\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"},title:"",author:"DrBlackError",pages:["{\"text\":\"Wenn du das lesen kannst ist irgend was schief gelaufen\",\"color\":\"black\"}"]}}}
 execute as @e[tag=et1,tag=zc4-w1-e] at @s run tag @p add w1
 execute as @e[tag=et1,tag=zc4-w1-e] at @s run setblock ~3 ~-1 ~ cauldron
 

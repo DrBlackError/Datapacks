@@ -16,10 +16,9 @@ execute as @e[tag=et1,tag=zc4-s2-n] at @s run kill @e[type=item_frame,distance=.
 execute as @e[tag=et1,tag=zc4-s2-n] at @s run summon minecraft:item_frame ~ ~ ~-1 {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s2-n] at @s run summon minecraft:item_frame ~ ~ ~-2 {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s2-n] at @s run kill @e[type=item,distance=2..4]
-execute as @e[tag=et1,tag=zc4-s2-n] at @s run summon item ~ ~ ~-1.5 {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Blitz-Stab\",\"color\":\"dark_purple\"}",Lore:["Wenn die blaue Wolke ein Mob , Spieler oder Block trift wird ein Blitz gespawnt"]},Unbreakable:1b,Damage:3}}}
+execute as @e[tag=et1,tag=zc4-s2-n] at @s run summon item ~ ~ ~-1.5 {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Blitz-Stab\",\"color\":\"dark_purple\"}",Lore:["Wenn die blaue Wolke ein Mob , Spieler oder Block trift wird ein Blitz gespawnt"]},CustomModelData:3}}}
 execute as @e[tag=et1,tag=zc4-s2-n] at @s run tag @p add s2
 execute as @e[tag=et1,tag=zc4-s2-n] at @s run setblock ~ ~-1 ~-3 cauldron
-execute as @e[tag=et1,tag=zc4-s2-n] at @s run tellraw @a ["",{"selector":"@p"},{"text":" hat den Blitz-Stab hergestellt!!!! ","color":"dark_purple"}]
 
 #reset
 tag @e[tag=et1,tag=zc1-s2-n] remove zc1-s2-n
@@ -42,10 +41,9 @@ execute as @e[tag=et1,tag=zc4-s2-s] at @s run kill @e[type=item_frame,distance=.
 execute as @e[tag=et1,tag=zc4-s2-s] at @s run summon minecraft:item_frame ~ ~ ~1 {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s2-s] at @s run summon minecraft:item_frame ~ ~ ~2 {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s2-s] at @s run kill @e[type=item,distance=2..4]
-execute as @e[tag=et1,tag=zc4-s2-s] at @s run summon item ~ ~ ~1.5 {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Blitz-Stab\",\"color\":\"dark_purple\"}",Lore:["Wenn die blaue Wolke ein Mob , Spieler oder Block trift wird ein Blitz gespawnt"]},Unbreakable:1b,Damage:3}}}
+execute as @e[tag=et1,tag=zc4-s2-s] at @s run summon item ~ ~ ~1.5 {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Blitz-Stab\",\"color\":\"dark_purple\"}",Lore:["Wenn die blaue Wolke ein Mob , Spieler oder Block trift wird ein Blitz gespawnt"]},CustomModelData:3}}}
 execute as @e[tag=et1,tag=zc4-s2-s] at @s run tag @p add s2
 execute as @e[tag=et1,tag=zc4-s2-s] at @s run setblock ~ ~-1 ~3 cauldron
-execute as @e[tag=et1,tag=zc4-s2-s] at @s run tellraw @a ["",{"selector":"@p"},{"text":" hat den Blitz-Stab hergestellt!!!! ","color":"dark_purple"}]
 
 #reset
 tag @e[tag=et1,tag=zc1-s2-s] remove zc1-s2-s
@@ -68,10 +66,9 @@ execute as @e[tag=et1,tag=zc4-s2-w] at @s run kill @e[type=item_frame,distance=.
 execute as @e[tag=et1,tag=zc4-s2-w] at @s run summon minecraft:item_frame ~-1 ~ ~ {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s2-w] at @s run summon minecraft:item_frame ~-2 ~ ~ {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s2-w] at @s run kill @e[type=item,distance=..4]
-execute as @e[tag=et1,tag=zc4-s2-w] at @s run summon item ~-1.5 ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Blitz-Stab\",\"color\":\"dark_purple\"}",Lore:["Wenn die blaue Wolke ein Mob , Spieler oder Block trift wird ein Blitz gespawnt"]},Unbreakable:1b,Damage:3}}}
+execute as @e[tag=et1,tag=zc4-s2-w] at @s run summon item ~-1.5 ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Blitz-Stab\",\"color\":\"dark_purple\"}",Lore:["Wenn die blaue Wolke ein Mob , Spieler oder Block trift wird ein Blitz gespawnt"]},CustomModelData:3}}}
 execute as @e[tag=et1,tag=zc4-s2-w] at @s run tag @p add s2
 execute as @e[tag=et1,tag=zc4-s2-w] at @s run setblock ~-3 ~-1 ~ cauldron
-execute as @e[tag=et1,tag=zc4-s2-w] at @s run tellraw @a ["",{"selector":"@p"},{"text":" hat den Blitz-Stab hergestellt!!!! ","color":"dark_purple"}]
 
 #reset
 tag @e[tag=et1,tag=zc1-s2-w] remove zc1-s2-w
@@ -94,10 +91,9 @@ execute as @e[tag=et1,tag=zc4-s2-e] at @s run kill @e[type=item_frame,distance=.
 execute as @e[tag=et1,tag=zc4-s2-e] at @s run summon minecraft:item_frame ~1 ~ ~ {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s2-e] at @s run summon minecraft:item_frame ~2 ~ ~ {Item:{},Facing:1b,}
 execute as @e[tag=et1,tag=zc4-s2-e] at @s run kill @e[type=item,distance=2..4]
-execute as @e[tag=et1,tag=zc4-s2-e] at @s run summon item ~1.5 ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Blitz-Stab\",\"color\":\"dark_purple\"}",Lore:["Wenn die blaue Wolke ein Mob , Spieler oder Block trift wird ein Blitz gespawnt"]},Unbreakable:1b,Damage:3}}}
+execute as @e[tag=et1,tag=zc4-s2-e] at @s run summon item ~1.5 ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Blitz-Stab\",\"color\":\"dark_purple\"}",Lore:["Wenn die blaue Wolke ein Mob , Spieler oder Block trift wird ein Blitz gespawnt"]},CustomModelData:3}}}
 execute as @e[tag=et1,tag=zc4-s2-e] at @s run tag @p add s2
 execute as @e[tag=et1,tag=zc4-s2-e] at @s run setblock ~3 ~-1 ~ cauldron
-execute as @e[tag=et1,tag=zc4-s2-e] at @s run tellraw @a ["",{"selector":"@p"},{"text":" hat den Blitz-Stab hergestellt!!!! ","color":"dark_purple"}]
 
 #reset
 tag @e[tag=et1,tag=zc1-s2-e] remove zc1-s2-e
