@@ -115,3 +115,7 @@ execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{Damage:10
 #Save Cloud wand
 execute as @e[type=shulker,tag=saveplatform] run scoreboard players add @s savecloud 1
 execute as @e[type=shulker,tag=saveplatform,scores={savecloud=200}] run kill @s
+
+#DrBlackError
+#staff of healing
+function mplus:wand10
