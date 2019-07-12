@@ -2,7 +2,7 @@
 #auto-miner
 execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:diamond_pickaxe",Count:1b,tag:{display:{Name:'{"text":"Miner"}'}}}},distance=..2] run replaceitem entity @s weapon.mainhand minecraft:diamond_pickaxe 1
 execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:diamond_pickaxe",Count:1b,tag:{display:{Name:'{"text":"Miner"}'}}}},distance=..2] run tag @s add autominer
-execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:diamond_pickaxe",Count:1b,tag:{display:{Name:'{"text":"Miner"}'}}}},distance=..2] run tellraw @a[distance=..5] "Ohne Wasser kein Fischer!"
+#execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:diamond_pickaxe",Count:1b,tag:{display:{Name:'{"text":"Miner"}'}}}},distance=..2] run tellraw @a[distance=..5] "Ohne Wasser kein Fischer!"
 #execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:diamond_pickaxe",Count:1b,tag:{display:{Name:'{"text":"Miner"}'}}}},distance=..2] run give @p[distance=..5] diamond_pickaxe{"display":{"Name":"{\"text\":\"Miner\"}"}} 1
 execute at @e[type=armor_stand] as @e[type=item,nbt={Item:{tag:{display:{Name:'{"text":"Miner"}'}}}},distance=..2] run kill @s
 execute as @e[tag=autominer] run scoreboard players add @s minercountdown 1

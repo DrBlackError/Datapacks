@@ -33,7 +33,7 @@ give @p minecraft:carrot_on_a_stick{CustomModelData:9} 1
 #give @p minecraft:carrot_on_a_stick{CustomModelData:20} 1
 
 #DrBlackError
-#gives player Potion of Mana
+#gives player Potion of mana
 give @p minecraft:potion{HideFlags:33,CustomPotionEffects:[{Id:27b,Amplifier:1b,Duration:1,ShowParticles:0b}],CustomPotionColor:4707583} 1
 give @p minecraft:potion{HideFlags:33,CustomPotionEffects:[{Id:27b,Amplifier:2b,Duration:1,ShowParticles:0b}],CustomPotionColor:4707583} 1
 give @p minecraft:potion{HideFlags:33,CustomPotionEffects:[{Id:27b,Amplifier:3b,Duration:1,ShowParticles:0b}],CustomPotionColor:4707583} 1

@@ -3,3 +3,5 @@
 function mande:energy
 function mande:energy/particle
 function mande:energy/furnace/loop
+function mande:autofisher
+function mande:autominer

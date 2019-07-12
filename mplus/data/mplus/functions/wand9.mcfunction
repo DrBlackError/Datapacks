@@ -18,5 +18,5 @@ execute as @a[scores={exact=1}, tag=!w9] at @s run tellraw @s ["",{"text":"Error
 #Effect
 effect give @s minecraft:slow_falling 1 155 true
 
-#Remove Mana
+#Remove mana
 execute as @a[scores={exact=1, mana=2..},tag=w9] at @s run scoreboard players remove @s mana 2
