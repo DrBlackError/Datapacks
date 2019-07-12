@@ -12,8 +12,7 @@ execute as @a[scores={exact=1..},nbt={Inventory:[{Slot:-106b,tag:{CustomModelDat
 #execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:7}}}] at @s run say Carrot 7 --> Gift
 #execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:8}}}] at @s run say Carrot 8 --> Mutatio
 execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:9}}}] at @s run function mplus:wand9
-execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:10}}}] at @s run say Carrot 10
-execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:11}}}] at @s run say Carrot 11
+execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:11}}}] at @s run function mplus:tp_homeset
 execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:12}}}] at @s run say Carrot 12
 execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:13}}}] at @s run say Carrot 13
 execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:14}}}] at @s run say Carrot 14

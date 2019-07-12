@@ -1,8 +1,11 @@
 #DrBlackRat
-#home_spawnpoint setzen
+#home_spawnpoint setzen unf forceload machen
 #main
+
+execute as @e[tag=home_spawnpoint] at @s if score @s uuid = @a[limit=1,scores={tp_home_click=1..},nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}]}] uuid run forceload remove ~ ~ ~ ~
 execute as @e[tag=home_spawnpoint] at @s if score @s uuid = @a[limit=1,scores={tp_home_click=1..},nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}]}] uuid run kill @s
 execute as @a[scores={tp_home_click=1..},nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}]}] at @s run summon area_effect_cloud ~ ~ ~ {NoGravity:1b,Particle:"dust",Radius:0f,Duration:999999999,Tags:["home_spawnpoint","uuid_rotate","uuid_zero"]}
+execute as @a[scores={tp_home_click=1..},nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}]}] at @s run forceload add ~ ~ ~ ~
 execute as @a[scores={tp_home_click=1..},nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}]}] at @s run tp @e[tag=uuid_zero,distance=..1] @s
 execute as @a[scores={tp_home_click=1..},nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}]}] at @s run scoreboard players set @e[tag=uuid_zero,distance=..1] uuid 0
 execute as @e[tag=uuid_zero] at @s run tag @s remove uuid_zero

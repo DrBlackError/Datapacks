@@ -21,9 +21,9 @@ execute as @e[tag=shoot3objekt] at @s run particle minecraft:dust 0 1 1 2 ~ ~ ~ 
 
 #schaden machen
 execute as @e[tag=shoot3objekt] at @s run tag @e[distance=..2,tag=!shoot3objekt,type=!item,type=!armor_stand,type=!area_effect_cloud] add ice
-effect give @e[tag=ice] minecraft:slowness 5 255 true
-effect give @e[tag=ice] minecraft:slow_falling 5 255 true
-effect give @e[tag=ice] minecraft:levitation 5 200 true
+execute as @e[tag=ice] at @s run summon area_effect_cloud ~ ~ ~ {NoGravity:1b,Duration:100,Tags:["shoot3tp"]}
+execute as @e[tag=ice] at @s run tp @e[tag=shoot3tp,limit=1,sort=nearest,distance=..1] @s
+execute as @e[tag=shoot3tp] at @s run tp @e[tag=!shoot3objekt,type=!item,type=!armor_stand,type=!area_effect_cloud,distance=..1,limit=1,sort=nearest] @s
 execute as @e[tag=ice] at @s run playsound minecraft:block.glass.break ambient @a[distance=..20]
 execute as @e[tag=ice] at @s run particle minecraft:dust 0 1 1 10 ~ ~ ~ 0 0 0 1 20 force
 execute as @e[tag=ice] at @s run kill @e[tag=shoot3objekt,limit=1,sort=nearest]
