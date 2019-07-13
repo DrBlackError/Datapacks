@@ -17,3 +17,7 @@ scoreboard players enable @a 3
 function basicplus:afksystem
 
 function basicplus:uuid
+
+
+#ArmorChanger
+function basicplus:quickchange/armorchange
