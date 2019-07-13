@@ -8,7 +8,7 @@ execute as @e[limit=1,type=item,nbt={Item:{id: "minecraft:enchanted_book", Count
 #?
 #?
 #kill @e[type=minecraft:phantom]
-kill @e[type=tnt]
+#kill @e[type=tnt]
 
 #?
 #?

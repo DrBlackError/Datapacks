@@ -1,6 +1,6 @@
 #Florian
 #9.7.2019
-function chunkloader:teleport/tp_homeset
+#function chunkloader:teleport/tp_homeset
 #Looking for the 4 Recipe Items for the "Summoning"
 execute as @r at @s as @e[limit=1,type=item,nbt={OnGround:1b,Item:{id:"minecraft:nether_star",Count:1b}}] at @s if block ~ ~ ~ enchanting_table run tag @s add chunkloader1
 execute as @r at @s as @e[type=item,distance=..6,nbt={OnGround:1b,Item:{id:"minecraft:ender_pearl",Count:16b}}] at @s if block ~ ~ ~ enchanting_table run tag @s add chunkloader2
