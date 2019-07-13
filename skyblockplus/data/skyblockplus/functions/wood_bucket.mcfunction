@@ -32,7 +32,7 @@ tag @a[tag=wbc_start] remove wbc_start
 execute as @e[tag=cau_projektil] at @s if block ~ ~ ~ cauldron run kill @s
 execute as @e[tag=cau_block] at @s unless block ~ ~ ~ cauldron run kill @s
 execute as @e[tag=cau_block] at @s if block ~ ~ ~ cauldron run kill @s
-execute as @a[tag=wbc_shoot] at @s unless entity @e[tag=cau_projektil] unless entity @e[tag=cau_block] run tag @s remove wbw_shoot
+execute as @a[tag=wbc_shoot] at @s unless entity @e[tag=cau_projektil] unless entity @e[tag=cau_block] run tag @s remove wbc_shoot
 
 #DrBlackRat
 #wasser_block
@@ -80,7 +80,7 @@ tag @a[tag=water_wbc_start] remove water_wbc_start
 execute as @e[tag=water_cau_projektil] at @s if block ~ ~ ~ cauldron run kill @s
 execute as @e[tag=water_cau_block] at @s unless block ~ ~ ~ cauldron run kill @s
 execute as @e[tag=water_cau_block] at @s if block ~ ~ ~ cauldron run kill @s
-execute as @a[tag=water_wbc_shoot] at @s unless entity @e[tag=water_cau_projektil] unless entity @e[tag=water_cau_block] run tag @s remove water_wbw_shoot
+execute as @a[tag=water_wbc_shoot] at @s unless entity @e[tag=water_cau_projektil] unless entity @e[tag=water_cau_block] run tag @s remove water_wbc_shoot
 
 #DrBlackRat
 #water_wasser_block
