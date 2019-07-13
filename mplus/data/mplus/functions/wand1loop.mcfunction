@@ -15,7 +15,7 @@ execute as @a[scores={tptime=10..50}] at @s run particle minecraft:dust 0.5 0 1 
 execute as @a[scores={tptime=49}] at @s run playsound minecraft:block.portal.travel ambient @a[distance=..20] ~ ~ ~ 0.4
 execute as @a[scores={tptime=10}] at @s run playsound minecraft:entity.enderman.teleport ambient @a[distance=..20]
 execute as @e[tag=home_spawnpoint] at @s if score @s uuid = @a[limit=1,scores={tptime=10}] uuid in minecraft:overworld run tp @a[limit=1,scores={tptime=10}] @s
-execute as @e[tag=home_spawnpoint] at @s unless score @s uuid = @a[limit=1,scores={tptime=10}] uuid in minecraft:overworld run tellraw @a[limit=1,scores={tptime=10}] ["",{"text":"Du hast noch kein Home gesetzt!","color":"red"}]
+execute as @a[scores={tptime=10},tag=!home_set] at @s run tellraw @a[limit=1,scores={tptime=10}] ["",{"text":"Du hast noch kein Home gesetzt!","color":"red"}]
 execute as @a[scores={tptime=9}] at @s run particle minecraft:dust 0.5 0 1 3 ~ ~ ~ 0.2 0.6 0.2 5 100
 execute as @a[scores={tptime=9}] at @s run playsound minecraft:entity.enderman.teleport ambient @a[distance=..20]
 
