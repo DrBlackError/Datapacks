@@ -36,31 +36,36 @@ execute as @a[tag=s3,tag=Got4] run tag @s remove Got4
 
 #Stab 4 zu Stab 5
 execute as @a[scores={sneaktime=0},tag=s3,nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:4}}]}] at @s as @s run tag @s add Get5
-execute as @a[tag=Get5,tag=!w9] at @s run tag @s add Get1
-execute as @a[tag=Get5,tag=!w9] at @s run clear @s minecraft:carrot_on_a_stick{CustomModelData:4}
-execute as @a[tag=Get5,tag=!w9] at @s run tag @s remove Get5
-execute as @a[tag=w1,tag=Get5,tag=!Got5] run give @s minecraft:carrot_on_a_stick{CustomModelData:9} 1
+execute as @a[tag=Get5,tag=!w10] at @s run tag @s add Get1
+execute as @a[tag=Get5,tag=!w10] at @s run clear @s minecraft:carrot_on_a_stick{CustomModelData:4}
+execute as @a[tag=Get5,tag=!w10] at @s run tag @s remove Get5
+execute as @a[tag=w1,tag=Get5,tag=!Got5] run give @s minecraft:carrot_on_a_stick{display:{Name:"{\"text\":\"Stab der Heilung\",\"color\":\"dark_purple\"}",Lore:["Dieser Stab Heilt dich in jeder Situation"]},CustomModelData:10} 1
 execute as @a[tag=w1,tag=Get5] run tag @s add Got5
 execute as @a[tag=w1,tag=Get5] run clear @s minecraft:carrot_on_a_stick{CustomModelData:4} 1
 execute as @a[tag=w1,tag=Get5] run tag @s remove Get5
 execute as @a[tag=w1,tag=Got5] run tag @s remove Got5
 
 #Stab 5 zu Stab 1
+execute as @a[scores={sneaktime=0},tag=s3,nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:10}}]}] at @s as @s run tag @s add Get6
+execute as @a[tag=Get6,tag=!w9] at @s run tag @s add Get1
+execute as @a[tag=Get6,tag=!w9] at @s run clear @s minecraft:carrot_on_a_stick{CustomModelData:10}
+execute as @a[tag=Get6,tag=!w9] at @s run tag @s remove Get6
+execute as @a[tag=w1,tag=Get6,tag=!Got6] run give @s minecraft:carrot_on_a_stick{CustomModelData:9} 1
+execute as @a[tag=w1,tag=Get6] run tag @s add Got6
+execute as @a[tag=w1,tag=Get6] run clear @s minecraft:carrot_on_a_stick{CustomModelData:10}
+execute as @a[tag=w1,tag=Get6] run tag @s remove Get6
+execute as @a[tag=w1,tag=Got6] run tag @s remove Got6
+
+#Stab 6 zu Stab 1
 execute as @a[scores={sneaktime=0},tag=s3,nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:9}}]}] at @s as @s run tag @s add Get1
 execute as @a[tag=Get1,tag=!w1] at @s run tag @s add Get2
 execute as @a[tag=Get1,tag=!w1] at @s run clear @s minecraft:carrot_on_a_stick{CustomModelData:9}
 execute as @a[tag=Get1,tag=!w1] at @s run tag @s remove Get1
-execute as @a[tag=w1,tag=Get1,tag=!Got1] run give @s minecraft:carrot_on_a_stick{display:{Name:"{\"text\":\"Stab des sicheren Zuhauses\",\"color\":\"dark_purple\"}",Lore:["Dieser Stab bringt dich in jeder Situation nach Hause"]},HideFlags:63,CustomModelData:1} 1
+execute as @a[tag=w1,tag=Get1,tag=!Got1] run give @s minecraft:carrot_on_a_stick{display:{Name:"{\"text\":\"Stab des sicheren Zuhauses\",\"color\":\"dark_purple\"}",Lore:["Dieser Stab bringt dich in jeder Situation nach Hause"]},CustomModelData:1} 1
 execute as @a[tag=w1,tag=Get1] run tag @s add Got1
 execute as @a[tag=w1,tag=Get1] run clear @s minecraft:carrot_on_a_stick{CustomModelData:9}
 execute as @a[tag=w1,tag=Get1] run tag @s remove Get1
 execute as @a[tag=w1,tag=Got1] run tag @s remove Got1
 
-
-
 #Reset sneaktime
 scoreboard players set @a[scores={sneaktime=1..}] sneaktime 0
-
-
-#Vorlage
-#execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:5}}]}] run say hi
