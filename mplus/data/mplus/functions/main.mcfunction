@@ -82,6 +82,7 @@ function mplus:z-c-w1-craft
 function mplus:z-c-s1-craft
 function mplus:z-c-s2-craft
 function mplus:z-c-s3-craft
+function mplus:z-c-w10-craft
 
 #DrBlackRat
 #tauscht bücher
@@ -116,6 +117,6 @@ execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{Damage:10
 execute as @e[type=shulker,tag=saveplatform] run scoreboard players add @s savecloud 1
 execute as @e[type=shulker,tag=saveplatform,scores={savecloud=200}] run kill @s
 
-#DrBlackError
+#DrBlackRat
 #staff of healing
 function mplus:wand10

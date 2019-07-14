@@ -46,3 +46,9 @@ scoreboard objectives add tp_home_click minecraft.used:minecraft.carrot_on_a_sti
 #DrBlackError
 #auto-frisher cooldown
 scoreboard objectives add autofishercountdown dummy
+
+#heal staff
+#DrBlackRat
+scoreboard objectives add heal_click minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add heal_timer dummy
+scoreboard players set @a heal_timer 0
