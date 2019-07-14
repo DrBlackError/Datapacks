@@ -3,8 +3,8 @@
 
 #timer
 execute as @a[scores={heal_click=1..,heal_timer=..19,mana=1..,life=..19},tag=w10,nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:10}}}] at @s run scoreboard players add @s heal_timer 1
-execute as @a[scores={heal_click=1..,heal_timer=..19,mana=0,life=..19},tag=w10,nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:10}}}] at @s run tellraw @s ["",{"text":"Du hast nicht genug Mana! ","color":"aqua"},{"text":"Benötigt: ","color":"blue"},{"text":"1","color":"green","bold":true}]
-execute as @a[scores={heal_click=1..,heal_timer=..19,mana=1..,life=20..},tag=w10,nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:10}}}] at @s run tellraw @s ["",{"text":"Du hast bereits volles Leben!","color":"red"}]
+execute as @a[scores={heal_click=1..,mana=0,life=..19},tag=w10,nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:10}}}] at @s run tellraw @s ["",{"text":"Du hast nicht genug Mana! ","color":"aqua"},{"text":"Benötigt: ","color":"blue"},{"text":"1","color":"green","bold":true}]
+execute as @a[scores={heal_click=1..,mana=1..,life=20..},tag=w10,nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:10}}}] at @s run tellraw @s ["",{"text":"Du hast bereits volles Leben!","color":"red"}]
 execute as @a[scores={heal_timer=20}] at @s run scoreboard players set @s heal_click -1
 
 #particel
