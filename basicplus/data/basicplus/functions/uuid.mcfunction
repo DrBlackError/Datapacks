@@ -7,9 +7,6 @@ execute as @a[tag=!uuid,limit=1] run tag @s add uuid
 #DrBlackRat
 #give an object a uuid from a player
 
-execute as @e[tag=get_uuid,tag=!get_uuid_zero] at @s run scoreboard players set @s uuid 0
-execute as @e[tag=get_uuid] at @s run tag @s add get_uuid_zero
+execute as @e[tag=get_uuid] at @s store result score @s uuid run scoreboard players get @p uuid
 execute as @e[tag=get_uuid] at @s if score @s uuid = @p uuid run tag @s add got_uuid
 execute as @e[tag=get_uuid] at @s if score @s uuid = @p uuid run tag @s remove get_uuid
-execute as @e[tag=get_uuid_zero] at @s if score @s uuid = @p uuid run tag @s remove get_uuid_zero
-execute as @e[tag=get_uuid] at @s run scoreboard players add @s uuid 1
