@@ -2,6 +2,7 @@
 #Tracken von Carrot clicks
 #tick
 
+execute as @a[scores={exact=1, mana=..4},tag=w1,tag=z1,nbt={SelectedItem:{tag:{CustomModelData:1}}}] at @s run tellraw @s ["",{"text":"Du hast nicht genug Mana! ","color":"aqua"},{"text":"Benötigt: ","color":"blue"},{"text":"5","color":"green","bold":true}]
 execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:1}}}] at @s run function mplus:wand1
 execute as @a[scores={exact=1..},nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}]}] at @s run function mplus:tp_stab_homeset
 #execute as @a[scores={exact=1..},nbt={SelectedItem:{tag:{CustomModelData:2}}}] at @s run say Carrot 2 --> Feuerstab
