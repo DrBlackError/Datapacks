@@ -10,3 +10,6 @@ execute as @e[type=armor_stand,tag=!energy] at @s if entity @e[type=item,nbt={It
 
 #efurnace
 execute as @e[type=armor_stand,tag=!energy] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:furnace",Count:1b,}},distance=..2] run function mande:energy/efurnace/efurnace
+
+#nuclear
+execute as @e[type=armor_stand,tag=!energy] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:beacon",Count:1b,}},distance=..2] run function mande:energy/nuclear/nuclear

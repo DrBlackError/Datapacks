@@ -4,5 +4,6 @@ function mande:energy
 function mande:energy/particle
 function mande:energy/efurnace/loop
 function mande:energy/solar/loop
+function mande:energy/nuclear/loop
 function mande:autofisher
 function mande:autominer
