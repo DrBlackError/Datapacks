@@ -11,3 +11,5 @@ execute as @s store result score @s ypos run data get entity @s Pos[1]
 execute as @s store result score @s zpos run data get entity @s Pos[2]
 
 execute as @s run tellraw @a ["",{"text":"Warnung! Bei ","color":"yellow"},{"score":{"name":"@s","objective":"xpos"},"color":"yellow"},{"text":" ","color":"none"},{"score":{"name":"@s","objective":"ypos"},"color":"yellow"},{"text":" ","color":"none"},{"score":{"name":"@s ","objective":"zpos"},"color":"yellow"},{"text":" ","color":"none"},{"text":"wurde ein Nuklearreaktor aufgebaut!","color":"yellow"}]
+
+Hallo Welt
