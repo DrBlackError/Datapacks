@@ -7,7 +7,8 @@ execute as @a[scores={tp_home_click=1..},tag=!z1,nbt={Inventory:[{Slot:-106b,tag
 
 execute as @e[tag=home_spawnpoint] at @s if score @s uuid = @a[limit=1,scores={tp_home_click=1..},tag=z1,tag=w1,nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}],Dimension:0}] uuid run forceload remove ~ ~ ~ ~
 execute as @e[tag=home_spawnpoint] at @s if score @s uuid = @a[limit=1,scores={tp_home_click=1..},tag=z1,tag=w1,nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}],Dimension:0}] uuid run kill @s
-execute as @a[scores={tp_home_click=1..},tag=z1,tag=w1,nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}],Dimension:0}] at @s run summon area_effect_cloud ~ ~ ~ {NoGravity:1b,Particle:"dust",Radius:0f,Duration:999999999,Tags:["home_spawnpoint","get_uuid"]}
+execute as @a[scores={tp_home_click=1..},tag=z1,tag=w1,nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}],Dimension:0}] at @s run summon area_effect_cloud ~ ~ ~ {NoGravity:1b,Particle:"dust",Radius:0f,Duration:999999999,Team:"HomePoint",Tags:["home_spawnpoint","get_uuid"]}
+execute as @a[scores={tp_home_click=1..},tag=z1,tag=w1,nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}],Dimension:0}] at @s run team join HomePoint @e[tag=home_spawnpoint]
 execute as @a[scores={tp_home_click=1..},tag=z1,tag=w1,nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}],Dimension:0}] at @s run execute as @e[tag=home_spawnpoint] at @s run forceload add ~ ~ ~ ~
 execute as @a[scores={tp_home_click=1..},tag=z1,tag=w1,nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}],Dimension:0}] at @s run tag @s add home_set
 

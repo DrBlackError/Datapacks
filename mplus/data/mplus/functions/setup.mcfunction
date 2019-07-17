@@ -52,3 +52,9 @@ scoreboard objectives add autofishercountdown dummy
 scoreboard objectives add heal_click minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add heal_timer dummy
 scoreboard players set @a heal_timer 0
+
+#team create
+team add HomePoint
+team modify HomePoint color green
+team modify HomePoint prefix ["",{"text":"[HomePoint] ","color":"green","bold":"false"}]
+team join HomePoint @e[tag=home_spawnpoint]
