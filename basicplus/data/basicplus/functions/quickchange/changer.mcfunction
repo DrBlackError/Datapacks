@@ -10,4 +10,3 @@ data modify entity @e[type=minecraft:armor_stand,distance=..2,tag=quickarmor,lim
 data modify entity @e[type=minecraft:armor_stand,distance=..2,tag=quickarmor,limit=1] ArmorItems[3] merge from entity @s Inventory[{Slot:103b}]
 loot replace entity @s armor.feet mine ~ ~2 ~ minecraft:air{drop_contents:1b}
 setblock ~ ~2 ~ air
-scoreboard players set @s armor_change 0
