@@ -13,3 +13,9 @@ execute as @e[type=armor_stand,tag=!energy] at @s if entity @e[type=item,nbt={It
 
 #nuclear
 execute as @e[type=armor_stand,tag=!energy] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:beacon",Count:1b,}},distance=..2] run function mande:energy/nuclear/nuclear
+
+#wind
+execute as @e[type=armor_stand,tag=!energy] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:phantom_membrane",Count:1b,}},distance=..2] run function mande:energy/wind/wind
+
+#water
+execute as @e[type=armor_stand,tag=!energy] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:grindstone",Count:1b,}},distance=..2] run function mande:energy/water/water
