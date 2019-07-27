@@ -21,3 +21,5 @@ function basicplus:uuid
 
 #ArmorChanger
 function basicplus:quickchange/armorchange
+#execute as @e[tag=saver,type=item,nbt={Item:{id:"minecraftpaper",Count:1b}}] run function basicplus:gravetry
+execute as @a[scores={gravedeath=1}] run function basicplus:gravetry
