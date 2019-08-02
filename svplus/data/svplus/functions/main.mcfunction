@@ -102,3 +102,11 @@ function svplus:autominer
 #DrBlackError
 #energy-system
 function svplus:energy
+
+#michi_exe
+#grave
+#function svplus:grave
+
+#DrBlackError
+#xp storer
+function svplus:xpstore

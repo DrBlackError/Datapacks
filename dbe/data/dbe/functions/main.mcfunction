@@ -7,8 +7,9 @@ function dbe:trigger/sethome
 function dbe:trigger/home
 function dbe:trigger/help
 function dbe:tick/playerpos
-function dbe:trigger/debugon
-function dbe:trigger/debugoff
+function dbe:trigger/debug
 function dbe:tick/debug
 function dbe:tick/sec
 function dbe:tick/test
+function dbe:trigger/info
+function dbe:trigger/debug

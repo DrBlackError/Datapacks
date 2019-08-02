@@ -24,13 +24,14 @@ scoreboard objectives add yhome dummy
 scoreboard objectives add zhome dummy
 scoreboard objectives add help trigger
 scoreboard players enable @a help
-scoreboard objectives add debugon trigger
-scoreboard players enable @a[tag=op] debugon
-scoreboard objectives add debugoff trigger
-scoreboard players enable @a[tag=op] debugoff
+scoreboard objectives add debug trigger
+scoreboard players enable @a[tag=op] debug
 scoreboard objectives add sectick dummy
 scoreboard objectives add sec dummy
+scoreboard objectives add info trigger
+scoreboard players enable @a info
 
-#DrBlackErrror
+
+#DrBlackError
 #Getpos
 #execute as @a run title @a actionbar ["",{"text":"x: "},{"score":{"name":"@s","objective":"xpos"}},{"text":" y: "},{"score":{"name":"@s","objective":"ypos"}},{"text":" z: "},{"score":{"name":"@s ","objective":"zpos"}}]

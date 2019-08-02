@@ -73,3 +73,6 @@ scoreboard objectives add owner dummy
 #DrBlackError
 #particletimer
 scoreboard objectives add particletimer dummy
+
+#michi_exe
+scoreboard objectives add grave deathCount

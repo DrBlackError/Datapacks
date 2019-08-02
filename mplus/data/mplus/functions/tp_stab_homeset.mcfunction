@@ -15,6 +15,9 @@ execute as @a[scores={tp_home_click=1..},tag=z1,tag=w1,nbt={Inventory:[{Slot:-10
 execute as @a[scores={tp_home_click=1..},tag=z1,tag=w1,nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}],Dimension:0}] at @s run spawnpoint @s
 execute as @a[scores={tp_home_click=1..},tag=z1,tag=w1,nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}],Dimension:0}] at @s run playsound minecraft:entity.arrow.hit_player ambient @s
 execute as @a[scores={tp_home_click=1..},tag=z1,tag=w1,nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}],Dimension:0}] at @s run tellraw @s ["",{"text":"Homepunkt erfolgreich gesetzt!","color":"aqua"}]
+execute as @a[scores={tp_home_click=1..},tag=z1,tag=w1,nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}],Dimension:0}] at @s store result score @s xhome run data get entity @s Pos[0]
+execute as @a[scores={tp_home_click=1..},tag=z1,tag=w1,nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}],Dimension:0}] at @s store result score @s yhome run data get entity @s Pos[1]
+execute as @a[scores={tp_home_click=1..},tag=z1,tag=w1,nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}],Dimension:0}] at @s store result score @s zhome run data get entity @s Pos[2]
 
 #execute as @a[scores={tp_home_click=1..},tag=z1,tag=w1,nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}],Dimension:-1}] at @s run tellraw @s ["",{"text":"Du kannst dein Home nicht im Nether setzen!","color":"red"}]
 #execute as @a[scores={tp_home_click=1..},tag=z1,tag=w1,nbt={Inventory:[{Slot:-106b,tag:{CustomModelData:1}}],Dimension:-1}] at @s run playsound minecraft:block.anvil.destroy master @s
