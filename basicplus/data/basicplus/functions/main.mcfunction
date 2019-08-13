@@ -7,6 +7,7 @@ function basicplus:exact
 function basicplus:customcrafting/crafting
 function basicplus:customcrafting/crafting_recepies
 
+#IFloooI
 #Gamemodes
 function basicplus:gamemode/1
 function basicplus:gamemode/2
@@ -16,10 +17,16 @@ scoreboard players enable @a 2
 scoreboard players enable @a 3
 function basicplus:afksystem
 
+#IFloooI
+#UUID system
 function basicplus:uuid
 
-
+#IFloooI
 #ArmorChanger
 function basicplus:quickchange/armorchange
 #execute as @e[tag=saver,type=item,nbt={Item:{id:"minecraftpaper",Count:1b}}] run function basicplus:gravetry
 execute as @a[scores={gravedeath=1}] run function basicplus:gravetry
+
+#DrBlackError
+#Lockable conainer
+function basicplus:lock
