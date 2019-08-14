@@ -110,3 +110,7 @@ function svplus:energy
 #DrBlackError
 #xp storer
 function svplus:xpstore
+
+#DrBlackError
+#Lockable conainer
+function svplus:lock
