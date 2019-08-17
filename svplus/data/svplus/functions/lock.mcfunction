@@ -17,3 +17,6 @@ execute as @e[tag=lock,tag=unlocked,tag=!lock_off] at @s if score @p[distance=..
 execute as @e[tag=lock,tag=unlocked,tag=!lock_off] at @s if score @p[distance=..5] uuid = @s uuid run tag @s add lock_off
 
 execute as @e[tag=lock] at @s unless block ~ ~ ~ #basicplus:lockable run kill @s
+#execute as @e[tag=locker] at @s unless block ~ ~ ~ #basicplus:lockable run kill @s
+
+execute as @e[tag=locker,type=slime] at @s unless entity @e[tag=lock,type=armor_stand,distance=..1] run tp @s @e[tag=lock,distance=..2,limit=1,sort=nearest]
