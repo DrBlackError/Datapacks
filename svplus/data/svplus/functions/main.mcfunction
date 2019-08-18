@@ -114,3 +114,7 @@ function svplus:xpstore
 #DrBlackError
 #Lockable conainer
 function svplus:lock
+
+#DrBlackRat
+#drinks
+function svplus:drinks
