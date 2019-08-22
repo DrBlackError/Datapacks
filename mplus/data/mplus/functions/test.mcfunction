@@ -34,10 +34,14 @@ give @p minecraft:carrot_on_a_stick{CustomModelData:9} 1
 
 #DrBlackError
 #gives player Potion of mana
-give @p minecraft:potion{HideFlags:33,CustomPotionEffects:[{Id:27b,Amplifier:1b,Duration:1,ShowParticles:0b}],CustomPotionColor:4707583} 1
-give @p minecraft:potion{HideFlags:33,CustomPotionEffects:[{Id:27b,Amplifier:2b,Duration:1,ShowParticles:0b}],CustomPotionColor:4707583} 1
-give @p minecraft:potion{HideFlags:33,CustomPotionEffects:[{Id:27b,Amplifier:3b,Duration:1,ShowParticles:0b}],CustomPotionColor:4707583} 1
-give @p minecraft:potion{HideFlags:33,CustomPotionEffects:[{Id:27b,Amplifier:4b,Duration:1,ShowParticles:0b}],CustomPotionColor:4707583} 1
+#give @p minecraft:potion{HideFlags:33,CustomPotionEffects:[{Id:27b,Amplifier:1b,Duration:1,ShowParticles:0b}],CustomPotionColor:4707583} 1
+#give @p minecraft:potion{HideFlags:33,CustomPotionEffects:[{Id:27b,Amplifier:2b,Duration:1,ShowParticles:0b}],CustomPotionColor:4707583} 1
+#give @p minecraft:potion{HideFlags:33,CustomPotionEffects:[{Id:27b,Amplifier:3b,Duration:1,ShowParticles:0b}],CustomPotionColor:4707583} 1
+#give @p minecraft:potion{HideFlags:33,CustomPotionEffects:[{Id:27b,Amplifier:4b,Duration:1,ShowParticles:0b}],CustomPotionColor:4707583} 1
+give @p minecraft:potion{display:{Name:"{\"text\":\"Zaubertrank des geringen Mana\",\"italic\":false}"},HideFlags:33,CustomPotionEffects:[{Id:27b,Amplifier:1b,Duration:1,ShowParticles:0b}],CustomPotionColor:4707583} 1
+give @p minecraft:potion{display:{Name:"{\"text\":\"Zaubertrank des Mana\",\"italic\":false}"},HideFlags:33,CustomPotionEffects:[{Id:27b,Amplifier:2b,Duration:1,ShowParticles:0b}],CustomPotionColor:4707583} 1
+give @p minecraft:potion{display:{Name:"{\"text\":\"Zaubertrank des starken Mana\",\"italic\":false}"},HideFlags:33,CustomPotionEffects:[{Id:27b,Amplifier:3b,Duration:1,ShowParticles:0b}],CustomPotionColor:4707583} 1
+give @p minecraft:potion{display:{Name:"{\"text\":\"Error 404\",\"italic\":false}"},HideFlags:33,CustomPotionEffects:[{Id:27b,Amplifier:4b,Duration:1,ShowParticles:0b}],CustomPotionColor:4707583} 1
 
 #?
 #?
