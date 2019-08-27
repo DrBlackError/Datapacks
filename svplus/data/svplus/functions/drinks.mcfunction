@@ -29,5 +29,16 @@ execute as @e[tag=crafted_bier] at @s run fill ~ ~ ~ ~ ~ ~ cauldron replace caul
 execute as @e[tag=crafted_bier] at @s run particle minecraft:dust 0.5 1 1 1 ~ ~ ~ 0.1 0.8 0.1 0 100
 execute as @e[tag=crafted_bier] at @s run playsound minecraft:block.brewing_stand.brew ambient @a[distance=..10]
 execute as @e[tag=crafted_bier] at @s run kill @e[type=item,distance=..1,tag=!crafted_bier]
-execute as @e[tag=crafted_bier] at @s run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:potion",Count:1b}}
+execute as @e[tag=crafted_bier] at @s run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:potion",Count:1b,tag:{display:{Name:'{"text":"Bier","color":"gold","italic":true}',Lore:['{"text":"Ein frisch gebrautes Bier.","color":"dark_purple"}']},CustomPotionEffects:[{Id:9b,Amplifier:2b,Duration:600,ShowParticles:1b},{Id:17b,Amplifier:1b,Duration:600,ShowParticles:0b}]}}}
 execute as @e[tag=crafted_bier] at @s run kill @s
+
+
+#Wein
+execute as @e[nbt={Item:{id:"minecraft:glass_bottle",Count:1b}}] at @s if block ~ ~ ~ minecraft:cauldron[level=3] if entity @e[distance=..1,nbt={Item:{id:"minecraft:sweet_berries",Count:1b}}] run tag @s add crafted_wein
+
+execute as @e[tag=crafted_wein] at @s run fill ~ ~ ~ ~ ~ ~ cauldron replace cauldron[level=3]
+execute as @e[tag=crafted_wein] at @s run particle minecraft:dust 0.5 1 1 1 ~ ~ ~ 0.1 0.8 0.1 0 100
+execute as @e[tag=crafted_wein] at @s run playsound minecraft:block.brewing_stand.brew ambient @a[distance=..10]
+execute as @e[tag=crafted_wein] at @s run kill @e[type=item,distance=..1,tag=!crafted_wein]
+execute as @e[tag=crafted_wein] at @s run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:potion",Count:1b,tag:{display:{Name:'{"text":"Wein","color":"dark_purple","italic":true}',Lore:['{"text":"Ein frischer Wein.","color":"dark_purple"}']},CustomPotionEffects:[{Id:9b,Amplifier:2b,Duration:400,ShowParticles:1b},{Id:23b,Amplifier:1b,Duration:400,ShowParticles:0b}]}}}
+execute as @e[tag=crafted_wein] at @s run kill @s
