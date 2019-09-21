@@ -1,0 +1,56 @@
+#sort_redstone items
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:redstone"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:redstone_torch"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:redstone_lamp"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:redstone_block"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:repeater"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:comparator"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:dispenser"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:dropper"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:piston"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:sticky_piston"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:hopper"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:redstone"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:redstone"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:daylight_detector"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:observer"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:tnt"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:note_block"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:trapped_chest"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:oak_button"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:spruce_button"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:birch_button"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:jungle_button"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:acacia_button"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:dark_oak_button"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:stone_button"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:oak_pressure_plate"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:spruce_pressure_plate"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:birch_pressure_plate"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:jungle_pressure_plate"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:acacia_pressure_plate"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:dark_oak_pressure_plate"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:light_weighted_pressure_plate"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:heavy_weighted_pressure_plate"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:oak_trapdoor"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:spruce_trapdoor"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:birch_trapdoor"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:jungle_trapdoor"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:acacia_trapdoor"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:dark_oak_trapdoor"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:iron_trapdoor"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:oak_fence_gate"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:spruce_fence_gate"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:birch_fence_gate"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:jungle_fence_gate"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:acacia_fence_gate"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:dark_oak_fence_gate"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:oak_door"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:spruce_door"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:birch_door"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:jungle_door"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:acacia_door"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:dark_oak_door"}}] run data merge entity @s {Item:{tag:{sort:redstone}}}
+execute as @s run tellraw @p[distance=..10,limit=1] ["",{"text":"[","color":"dark_red"},{"text":"DPSS","color":"red"},{"text":"]","color":"dark_red"},{"text":" Das Item: ","color":"gold"},{"selector":"@s","color":"green"},{"text":" wurde erfolgreich in die Datenbank aufgenommen!","color":"gold"}]
+data merge entity @s {Item:{tag:{processed:true}}}
+tag @s add processed
